@@ -39,7 +39,7 @@ export function FeaturedProjects() {
              viewport={{ once: true }}
              className="flex gap-2 p-1 bg-white/5 rounded-full overflow-hidden border border-white/10"
           >
-            {(["All", "QA Engineering", "Vibe Coding"] as ProjectCategory[]).map((cat) => (
+            {(["All", "QA Engineering", "Vibe Coding", "UI/UX Design"] as ProjectCategory[]).map((cat) => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}

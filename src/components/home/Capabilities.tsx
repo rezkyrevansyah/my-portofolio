@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Laptop, Search, Smartphone, Code } from "lucide-react";
+import { ShieldCheck, Palette, Sparkles, Code, Laptop, Search, Smartphone } from "lucide-react";
 import { CapabilityCard } from "@/components/home/capabilities/capability-card";
 import { SectionHeader } from "@/components/ui/section-header";
 import capabilitiesData from "@/data/capabilities.json";
@@ -11,6 +11,9 @@ export function Capabilities() {
 
   const getIcon = (iconName: string) => {
     switch (iconName) {
+      case "ShieldCheck": return <ShieldCheck className="w-8 h-8 text-white" />;
+      case "Palette": return <Palette className="w-8 h-8 text-white" />;
+      case "Sparkles": return <Sparkles className="w-8 h-8 text-white" />;
       case "Search": return <Search className="w-8 h-8 text-white" />;
       case "Laptop": return <Laptop className="w-8 h-8 text-white" />;
       case "Code": return <Code className="w-8 h-8 text-white" />;
@@ -39,7 +42,7 @@ export function Capabilities() {
            </p>
          </motion.div>
 
-         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
            {capabilities.map((cap, index) => (
              <CapabilityCard 
                key={index} 

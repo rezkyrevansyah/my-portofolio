@@ -1,34 +1,26 @@
 [
   {
     "title": "Quality Assurance",
-    "description": "Comprehensive manual & automation testing to ensure platform stability.",
-    "icon": "Search",
+    "description": "Ensuring bug-free, stable, and high-performance applications through rigorous manual & automation testing.",
+    "icon": "ShieldCheck",
     "tagColor": "bg-brand-blue",
     "bgColor": "bg-[#1E293B]",
     "delay": 0.1
   },
   {
-    "title": "Automation Testing",
-    "description": "Cypress, Selenium, and Katalon Studio integration for regression testing.",
-    "icon": "Laptop",
-    "tagColor": "bg-brand-orange",
-    "bgColor": "bg-[#271A1A]",
+    "title": "UI/UX Design",
+    "description": "Crafting intuitive, user-centric, and visually stunning digital experiences that delight users.",
+    "icon": "Palette",
+    "tagColor": "bg-pink-500",
+    "bgColor": "bg-[#251018]",
     "delay": 0.2
   },
   {
     "title": "Vibe Coding",
-    "description": "AI-assisted full-stack development using Next.js and Tailwind.",
-    "icon": "Code",
-    "tagColor": "bg-brand-purple",
+    "description": "Building modern, AI-powered web applications with speed, style, and cutting-edge technology.",
+    "icon": "Sparkles",
+    "tagColor": "bg-brand-orange",
     "bgColor": "bg-[#1A1827]",
     "delay": 0.3
-  },
-  {
-    "title": "Mobile Testing",
-    "description": "Android & iOS testing using Appium and real devices.",
-    "icon": "Smartphone",
-    "tagColor": "bg-brand-green",
-    "bgColor": "bg-[#132A24]",
-    "delay": 0.4
   }
 ]

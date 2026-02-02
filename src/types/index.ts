@@ -1,4 +1,4 @@
-export type ProjectCategory = "All" | "QA Engineering" | "Vibe Coding";
+export type ProjectCategory = "All" | "QA Engineering" | "Vibe Coding" | "UI/UX Design";
 
 export interface ProjectLinks {
   github?: string;
