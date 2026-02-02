@@ -5,7 +5,7 @@ import {
   ClipboardCheck, Settings, Code2, Globe, Box, Smartphone, Send, PenTool, Trello, Layout, Code, Atom, Zap, Palette, Database, GitBranch,
   Terminal, Server, Cloud, Sparkles, Star
 } from "lucide-react";
-import portfolioData from "@/data/portfolio.json";
+import aboutData from "@/data/about.json";
 import { cn } from "@/lib/utils";
 
 // Map string icon names to Lucide components
@@ -15,8 +15,7 @@ const iconMap: Record<string, any> = {
 };
 
 export function SkillsMarquee() {
-  const { about } = portfolioData;
-  const skills = about.skills || [];
+  const skills = aboutData.skills || [];
 
   return (
     <section className="py-20 overflow-hidden relative border-y border-white/5 bg-white/[0.02] flex flex-col gap-8">

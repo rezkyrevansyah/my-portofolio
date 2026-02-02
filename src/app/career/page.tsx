@@ -9,10 +9,10 @@ import { ExperienceCard } from "@/components/career/experience-card";
 import { CompactCard } from "@/components/career/compact-card";
 import { BadgeCard } from "@/components/career/badge-card";
 import { AchievementCard } from "@/components/career/achievement-card";
-import portfolioData from "@/data/portfolio.json";
+import careerData from "@/data/career.json";
 
 export default function CareerPage() {
-  const { career } = portfolioData;
+  const career = careerData;
 
   const getIcon = (iconName: string) => {
      switch (iconName) {

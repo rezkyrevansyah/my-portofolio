@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils";
 import { ProjectCard } from "@/components/home/projects/project-card";
 import { Project, ProjectCategory } from "@/types";
 
-import portfolioData from "@/data/portfolio.json";
+import projectsData from "@/data/projects.json";
 
-const projects: Project[] = portfolioData.projects as unknown as Project[];
+const projects: Project[] = projectsData as unknown as Project[];
 
 export function FeaturedProjects() {
   const [filter, setFilter] = useState<ProjectCategory>("All");

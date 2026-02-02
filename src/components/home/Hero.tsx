@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 import { FloatingSticker } from "@/components/ui/floating-sticker";
 import { GeometricShape } from "@/components/ui/geometric-shape";
 import { StatCard } from "@/components/home/hero/stat-card";
-import portfolioData from "@/data/portfolio.json";
+import heroData from "@/data/hero.json";
 
 export function Hero() {
-  const { hero } = portfolioData;
+  const hero = heroData;
 
   return (
     <section className="relative min-h-[110vh] flex flex-col items-center justify-center overflow-hidden pt-40">

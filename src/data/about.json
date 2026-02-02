@@ -1,0 +1,38 @@
+{
+  "title": "About Me",
+  "name": "Revan",
+  "role": "QA Engineer & Vibe Coder",
+  "description": [
+    "I am an enthusiastic Information Technology graduate from Universitas Brawijaya (GPA 3.74) with a strong commitment to self-improvement.",
+    "I sit right at the intersection of breaking things (QA) and building them (Vibe Coding). With a background in comprehensive manual & automation testing, I ensure software quality is never an afterthought.",
+    "When I'm not hunting bugs or prompting AI, you can find me exploring new tech trends or refining my design eye."
+  ],
+  "tags": [
+    { "text": "Detail Oriented", "icon": "Heart", "variant": "fun" },
+    { "text": "Creative Thinker", "icon": "Sparkles", "variant": "purple" },
+    { "text": "Coffee Fuelled", "icon": "Coffee", "variant": "yellow" }
+  ],
+  "socials": {
+    "linkedin": "https://linkedin.com/in/rezkyrevansyah",
+    "whatsapp": "https://wa.me/6281283950403"
+  },
+  "photoPlaceholder": "/images/profile.png",
+  "skills": [
+    { "name": "Manual Testing", "icon": "ClipboardCheck" },
+    { "name": "Automation Testing", "icon": "Settings" },
+    { "name": "Python", "icon": "Code2" },
+    { "name": "Selenium", "icon": "Globe" },
+    { "name": "Katalon Studio", "icon": "Box" },
+    { "name": "Appium", "icon": "Smartphone" },
+    { "name": "Postman", "icon": "Send" },
+    { "name": "Figma", "icon": "PenTool" },
+    { "name": "Jira", "icon": "Trello" },
+    { "name": "HTML/CSS", "icon": "Layout" },
+    { "name": "JavaScript", "icon": "Code" },
+    { "name": "React", "icon": "Atom" },
+    { "name": "Next.js", "icon": "Zap" },
+    { "name": "Tailwind CSS", "icon": "Palette" },
+    { "name": "SQL", "icon": "Database" },
+    { "name": "Git", "icon": "GitBranch" }
+  ]
+}

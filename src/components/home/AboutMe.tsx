@@ -6,10 +6,10 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { SocialButton } from "@/components/ui/social-button";
-import portfolioData from "@/data/portfolio.json";
+import aboutData from "@/data/about.json";
 
 export function AboutMe() {
-  const { about } = portfolioData;
+  const about = aboutData;
 
   // Helper to map icon string to Component
   const getIcon = (iconName: string) => {

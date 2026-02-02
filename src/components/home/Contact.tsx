@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 import { Linkedin, Mail, MessageCircle, ArrowRight } from "lucide-react";
 import { ContactCard } from "@/components/home/contact/contact-card";
-import portfolioData from "@/data/portfolio.json";
+import contactData from "@/data/contact.json";
 
 export function Contact() {
-  const { contact } = portfolioData;
+  const contact = contactData;
 
   return (
     <section id="contact" className="py-24 px-6 relative overflow-hidden bg-gradient-to-b from-[#0B0F19] to-[#121624]">

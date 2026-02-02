@@ -3,10 +3,11 @@
 import { motion } from "framer-motion";
 import { Laptop, Search, Smartphone, Code } from "lucide-react";
 import { CapabilityCard } from "@/components/home/capabilities/capability-card";
-import portfolioData from "@/data/portfolio.json";
+import { SectionHeader } from "@/components/ui/section-header";
+import capabilitiesData from "@/data/capabilities.json";
 
 export function Capabilities() {
-  const { capabilities } = portfolioData;
+  const capabilities = capabilitiesData;
 
   const getIcon = (iconName: string) => {
     switch (iconName) {

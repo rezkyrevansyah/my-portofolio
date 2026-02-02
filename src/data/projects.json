@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "TerraScan (LASKAR AI)",
+    "category": "Vibe Coding",
+    "description": "AI-based capstone project for analyzing and visualizing environmental data. Built end-to-end ML workflows.",
+    "image": "/project-vibe-1.jpg",
+    "tags": ["Python", "Streamlit", "Pandas", "Machine Learning"],
+    "links": { "demo": "https://project-terra.streamlit.app/" }
+  },
+  {
+    "id": 2,
+    "title": "BAZNAS National Platform",
+    "category": "QA Engineering",
+    "description": "Spearheaded national rollout testing for 30+ offices. Identified critical bugs and ensured stability.",
+    "image": "/project-qa-1.jpg",
+    "tags": ["Manual Testing", "Jira", "Regression Testing"],
+    "links": {}
+  },
+  {
+    "id": 3,
+    "title": "Digital Experiences App",
+    "category": "Vibe Coding",
+    "description": "Bangkit Academy Capstone. Android app for revolutionizing sustainable tourism. Top 50 National Team.",
+    "image": "/project-vibe-2.jpg",
+    "tags": ["Android", "Machine Learning", "Cloud Computing"],
+    "links": {}
+  },
+  {
+    "id": 4,
+    "title": "Raion Hackjam App",
+    "category": "Vibe Coding",
+    "description": "First Place winner in Apps Development category at Raion Hackjam 2022.",
+    "image": "/project-qa-2.jpg",
+    "tags": ["Mobile Dev", "Hackathon", "UI/UX"],
+    "links": {}
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "header": {
+    "title": "Career Journey",
+    "subtitle": "My professional path, education, and milestones."
+  },
+  "experience": [
+    {
+      "role": "Quality Assurance Tester",
+      "company": "BAZNAS RI",
+      "period": "Sep 2025 - Present",
+      "type": "Full-time",
+      "description": "Spearheaded national application training and rollout across 30+ offices. Identified and tracked critical application issues through systematic testing. Collaborated with Product Owners and developers.",
+      "skills": ["Manual Testing", "Training", "Bug Tracking", "Collaboration"],
+      "color": "border-l-brand-orange"
+    },
+    {
+      "role": "QA Tester (Internship)",
+      "company": "Nusantara Beta Studio",
+      "period": "Mar 2025 - Aug 2025",
+      "type": "Internship",
+      "description": "Performed manual testing on web/mobile apps for high-profile clients like Kementerian Ekonomi Kreatif, Pegadaian, and TBIG.",
+      "skills": ["Manual Testing", "Mobile Testing", "Web Testing"],
+      "color": "border-l-brand-blue"
+    },
+    {
+      "role": "QA Tester (Internship)",
+      "company": "BAZNAS RI",
+      "period": "Sep 2024 - Dec 2024",
+      "type": "Internship",
+      "description": "Executed detailed test cases across platform features. Ensured functional, regression, and end-to-end testing coverage.",
+      "skills": ["Test Cases", "Regression Testing", "E2E Testing"],
+      "color": "border-l-brand-purple"
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor of Information Technology",
+      "subtitle": "Universitas Brawijaya",
+      "meta": "Aug 2021 - Jul 2025 | GPA: 3.74",
+      "icon": "GraduationCap"
+    },
+    {
+      "title": "Mobile Development Path",
+      "subtitle": "Bangkit Academy 2024",
+      "meta": "Feb 2024 - Jun 2024",
+      "icon": "GraduationCap"
+    }
+  ],
+  "organizations": [
+    {
+      "title": "Head of Supervisor",
+      "subtitle": "Raion Community",
+      "meta": "Jan 2023 - Jan 2024",
+      "icon": "Users"
+    },
+    {
+      "title": "Vice Head - Design & Multimedia",
+      "subtitle": "PORSIMABA 2023",
+      "meta": "Oct 2023 - Nov 2023",
+      "icon": "Users"
+    }
+  ],
+  "certifications": [
+    { "title": "Intermediate Android Development", "subtitle": "Dicoding", "year": "2024" },
+    { "title": "Applied ML for Android", "subtitle": "Dicoding", "year": "2024" },
+    { "title": "Test Case Design", "subtitle": "MySkill", "year": "2023" },
+    { "title": "QA in SDLC", "subtitle": "MySkill", "year": "2023" }
+  ],
+  "achievements": [
+      { "title": "1st Place Mobile Development", "subtitle": "Raion Hackjam 2022", "year": "2022", "image": "/images/achievements/raion-hackjam.jpg" },
+      { "title": "Finalist Gemastik XIV", "subtitle": "UX Design Category", "year": "2021", "image": "/images/achievements/gemastik.jpg" }
+  ],
+  "driveLink": "https://bit.ly/Sertifikat-Course-Rezky"
+}

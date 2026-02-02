@@ -1,0 +1,16 @@
+{
+  "title": "Quality",
+  "titleCheck": "Assurance",
+  "subtitle": "& Vibe Coding",
+  "stickerText": "✨ Open for Collaboration!",
+  "description": "I help brands communicate to their audience through creative design, clever strategy, and technology.",
+  "stats": [
+    { "number": "+3", "label": "Years Experience", "color": "bg-brand-blue", "rotate": "-2" },
+    { "number": "50+", "label": "Bugs Squashed", "color": "bg-brand-orange", "rotate": "2" },
+    { "number": "10+", "label": "Projects Delivered", "color": "bg-brand-purple", "rotate": "-1" }
+  ],
+  "actions": {
+    "primary": "Explore Portfolio",
+    "secondary": "Download CV"
+  }
+}
