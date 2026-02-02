@@ -54,6 +54,7 @@ function MarqueeRow({ skills, speed }: { skills: Skill[], speed: number }) {
         repeatType: "loop" 
       }}
       className="flex flex-shrink-0 gap-4 px-2"
+      style={{ willChange: "transform" }}
     >
       {skills.map((skill, index) => {
         const Icon = iconMap[skill.icon] || Code;

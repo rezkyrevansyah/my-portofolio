@@ -58,6 +58,9 @@ export function FeaturedProjects() {
 
         <motion.div
           layout
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
           className="grid grid-cols-1 md:grid-cols-2 gap-8"
         >
           {filteredProjects.map((project) => (

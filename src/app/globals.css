@@ -58,3 +58,10 @@ body {
   color: transparent;
   background-image: linear-gradient(to right, var(--color-brand-blue), var(--color-brand-purple));
 }
+
+/* Hardware Acceleration */
+.gpu-accelerated {
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+}

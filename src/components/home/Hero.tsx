@@ -16,9 +16,9 @@ export function Hero() {
       
       {/* 1. VIBRANT BACKGROUND BLOBS */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-brand-blue/20 rounded-full blur-[120px] mix-blend-screen animate-blob" />
-        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-brand-orange/15 rounded-full blur-[120px] mix-blend-screen animate-blob animation-delay-2000" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-teal/10 rounded-full blur-[100px] mix-blend-screen animate-blob animation-delay-4000" />
+        <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-brand-blue/20 rounded-full blur-[120px] mix-blend-screen animate-blob gpu-accelerated" />
+        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-brand-orange/15 rounded-full blur-[120px] mix-blend-screen animate-blob animation-delay-2000 gpu-accelerated" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-brand-teal/10 rounded-full blur-[100px] mix-blend-screen animate-blob animation-delay-4000 gpu-accelerated" />
       </div>
 
       
