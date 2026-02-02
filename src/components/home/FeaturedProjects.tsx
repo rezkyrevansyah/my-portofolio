@@ -37,7 +37,7 @@ export function FeaturedProjects() {
              initial={{ opacity: 0, x: 20 }}
              whileInView={{ opacity: 1, x: 0 }}
              viewport={{ once: true }}
-             className="flex gap-2 p-1 bg-white/5 rounded-full overflow-hidden border border-white/10"
+             className="flex flex-wrap justify-center gap-2 p-2 bg-white/5 rounded-2xl md:rounded-full border border-white/10"
           >
             {(["All", "QA Engineering", "Vibe Coding", "UI/UX Design"] as ProjectCategory[]).map((cat) => (
               <button
