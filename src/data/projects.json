@@ -34,5 +34,77 @@
     "image": "/project-qa-2.jpg",
     "tags": ["Mobile Dev", "Hackathon", "UI/UX"],
     "links": {}
+  },
+  {
+    "id": 5,
+    "title": "Kopi & Roti Senja",
+    "category": "Vibe Coding",
+    "description": "Landing page UMKM kopi & roti.",
+    "image": "/project-kopi-senja.jpg",
+    "tags": ["landing-page", "umkm", "Food & Beverage"],
+    "links": { "demo": "https://kopirotisenja.vercel.app/" }
+  },
+  {
+    "id": 6,
+    "title": "Financial Tracking App",
+    "category": "Vibe Coding",
+    "description": "Aplikasi web untuk pencatatan dan monitoring keuangan.",
+    "image": "/project-finance.jpg",
+    "tags": ["finance", "web-app", "utility"],
+    "links": { "demo": "https://financial-revan.vercel.app" }
+  },
+  {
+    "id": 7,
+    "title": "Masjid Al Arqam Profile",
+    "category": "Vibe Coding",
+    "description": "Website profil masjid untuk informasi dan publikasi kegiatan.",
+    "image": "/project-masjid.jpg",
+    "tags": ["profile", "community", "information"],
+    "links": { "demo": "https://alarqam-bekasiutara.vercel.app" }
+  },
+  {
+    "id": 8,
+    "title": "Laundry Express Kilat",
+    "category": "Vibe Coding",
+    "description": "Landing page layanan laundry dengan konsep jemput–antar.",
+    "image": "/project-laundry.jpg",
+    "tags": ["service", "landing-page", "business"],
+    "links": { "demo": "https://laundry-umkm.vercel.app" }
+  },
+  {
+    "id": 9,
+    "title": "GlowUp Clinic",
+    "category": "Vibe Coding",
+    "description": "Website klinik kecantikan Jakarta Selatan (company profile & services).",
+    "image": "/project-clinic.jpg",
+    "tags": ["beauty", "company-profile", "services"],
+    "links": { "demo": "https://clinic-glowup.vercel.app" }
+  },
+  {
+    "id": 10,
+    "title": "Turtle Pricing Pro",
+    "category": "Vibe Coding",
+    "description": "Web app pricing calculator untuk bisnis junk removal.",
+    "image": "/project-turtle.jpg",
+    "tags": ["calculator", "pricing", "utility"],
+    "links": { "demo": "https://turtle-pro.vercel.app" }
+  },
+  {
+    "id": 11,
+    "title": "Dashboard Test Cinta Zakat",
+    "category": "Vibe Coding",
+    "description": "Dashboard internal untuk keperluan testing dan QA aplikasi zakat.",
+    "image": "/project-zakat-dashboard.jpg",
+    "tags": ["dashboard", "qa-tool", "internal"],
+    "links": { "demo": "https://dashboard-bayarzakat.vercel.app" }
+  },
+  {
+    "id": 12,
+    "title": "BakeTrack Dashboard",
+    "category": "Vibe Coding",
+    "description": "Dashboard manajemen dan tracking operasional bakery.",
+    "image": "/project-baketrack.jpg",
+    "tags": ["dashboard", "management", "food"],
+    "links": { "demo": "https://dashboarku-baketrack.vercel.app" }
   }
 ]
