@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { ExternalLink, Github, Bug, LayoutTemplate } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { Project } from "@/types";
 
 export interface ProjectCardProps {
@@ -32,16 +33,25 @@ export function ProjectCard({ project }: ProjectCardProps) {
         primaryLink && "cursor-pointer"
       )}
     >
-      {/* Image Placeholder */}
+      {/* Project Image */}
       <div className="h-64 w-full bg-gradient-to-br from-gray-800 to-black relative overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center text-gray-600 group-hover:scale-105 transition-transform duration-500">
-           {project.category === "QA Engineering" ? (
-             <Bug className="w-16 h-16 opacity-20" />
-           ) : (
-             <LayoutTemplate className="w-16 h-16 opacity-20" />
-           )}
-        </div>
-        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+        {project.image ? (
+          <Image
+            src={project.image}
+            alt={project.title}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center text-gray-600 group-hover:scale-105 transition-transform duration-500">
+             {project.category === "QA Engineering" ? (
+               <Bug className="w-16 h-16 opacity-20" />
+             ) : (
+               <LayoutTemplate className="w-16 h-16 opacity-20" />
+             )}
+          </div>
+        )}
+        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 z-10">
           {project.links.github && (
             <Link 
               href={project.links.github} 

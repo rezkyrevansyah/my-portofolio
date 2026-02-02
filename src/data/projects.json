@@ -1,110 +1,146 @@
 [
   {
     "id": 1,
-    "title": "TerraScan (LASKAR AI)",
-    "category": "Vibe Coding",
-    "description": "AI-based capstone project for analyzing and visualizing environmental data. Built end-to-end ML workflows.",
-    "image": "/project-vibe-1.jpg",
-    "tags": ["Python", "Streamlit", "Pandas", "Machine Learning"],
-    "links": { "demo": "https://project-terra.streamlit.app/" }
+    "title": "BAZNAS National Portal",
+    "category": "QA Engineering",
+    "description": "Ensured stability and high performance for the official national zakat information and coordination platform.",
+    "image": "/projects/project-baznas.png",
+    "tags": ["National Portal", "Reliability", "Performance"],
+    "links": { "demo": "https://baznas.go.id/" }
   },
   {
     "id": 2,
-    "title": "BAZNAS National Platform",
+    "title": "EKRAF Hub Ecosystem",
     "category": "QA Engineering",
-    "description": "Spearheaded national rollout testing for 30+ offices. Identified critical bugs and ensured stability.",
-    "image": "/project-qa-1.jpg",
-    "tags": ["Manual Testing", "Jira", "Regression Testing"],
-    "links": {}
+    "description": "QA Testing for the Ministry's creative economy hub, enabling connectivity between 17 creative subsectors.",
+    "image": "/projects/project-ekraf-hub.png",
+    "tags": ["Government", "Web Ecosystem", "Collaboration"],
+    "links": { "demo": "https://hub.ekraf.go.id/" }
   },
   {
     "id": 3,
-    "title": "Digital Experiences App",
-    "category": "Vibe Coding",
-    "description": "Bangkit Academy Capstone. Android app for revolutionizing sustainable tourism. Top 50 National Team.",
-    "image": "/project-vibe-2.jpg",
-    "tags": ["Android", "Machine Learning", "Cloud Computing"],
-    "links": {}
+    "title": "Erafone E-Commerce Platform",
+    "category": "QA Engineering",
+    "description": "Full-cycle testing for a leading retail platform, focusing on seamless checkout flows and MyEraspace integration.",
+    "image": "/projects/project-erafone.png",
+    "tags": ["E-Commerce", "Checkout Flow", "Retail"],
+    "links": { "demo": "https://erafone.com/" }
   },
   {
     "id": 4,
-    "title": "Raion Hackjam App",
-    "category": "UI/UX Design",
-    "description": "First Place winner in Apps Development category at Raion Hackjam 2022.",
-    "image": "/project-qa-2.jpg",
-    "tags": ["Mobile Dev", "Hackathon", "UI/UX"],
-    "links": {}
+    "title": "TBIG Mobile (Tower Bersama)",
+    "category": "QA Engineering",
+    "description": "Mobile app testing for operational tracking and infrastructure monitoring across nationwide telecommunication towers.",
+    "image": "/projects/project-tbig.png",
+    "tags": ["Mobile App", "Logistics", "Operations"],
+    "links": { "demo": "https://play.google.com/store/apps/details?id=com.tbig.mobile" }
   },
   {
     "id": 5,
+    "title": "Cinta Zakat Crowdfunding",
+    "category": "QA Engineering",
+    "description": "Quality assurance for BAZNAS's digital donation gateway, ensuring secure and seamless transaction flows.",
+    "image": "/projects/project-cinta-zakat.png",
+    "tags": ["Crowdfunding", "Security", "Donation"],
+    "links": { "demo": "https://cintazakat.baznas.go.id/" }
+  },
+  {
+    "id": 6,
+    "title": "IDP EKRAF SSO Gateway",
+    "category": "QA Engineering",
+    "description": "Security and integration testing for the centralized Identity Provider system used by various E-KRAF modules.",
+    "image": "/projects/project-ekraf-idp.png",
+    "tags": ["Identity Provider", "SSO", "Security"],
+    "links": { "demo": "https://idp.ekraf.go.id/" }
+  },
+  {
+    "id": 7,
+    "title": "SiMBA UPZ Management System",
+    "category": "QA Engineering",
+    "description": "Testing complex management system for 30k+ UPZ, including RKAT planning and PSAK 109 financial reporting.",
+    "image": "/projects/project-simba-upz.png",
+    "tags": ["Management System", "Finance", "Internal-Tool"],
+    "links": { "demo": "https://upz.baznas.go.id/" }
+  },
+  {
+    "id": 8,
     "title": "Kopi & Roti Senja",
     "category": "Vibe Coding",
     "description": "Landing page UMKM kopi & roti.",
-    "image": "/project-kopi-senja.jpg",
+    "image": "/projects/project-kopi-senja.png",
     "tags": ["landing-page", "umkm", "Food & Beverage"],
     "links": { "demo": "https://kopirotisenja.vercel.app/" }
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Financial Tracking App",
     "category": "Vibe Coding",
     "description": "Aplikasi web untuk pencatatan dan monitoring keuangan.",
-    "image": "/project-finance.jpg",
+    "image": "/projects/project-finance.png",
     "tags": ["finance", "web-app", "utility"],
     "links": { "demo": "https://financial-revan.vercel.app" }
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Masjid Al Arqam Profile",
     "category": "Vibe Coding",
     "description": "Website profil masjid untuk informasi dan publikasi kegiatan.",
-    "image": "/project-masjid.jpg",
+    "image": "/projects/project-masjid.png",
     "tags": ["profile", "community", "information"],
     "links": { "demo": "https://alarqam-bekasiutara.vercel.app" }
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Laundry Express Kilat",
     "category": "Vibe Coding",
     "description": "Landing page layanan laundry dengan konsep jemput–antar.",
-    "image": "/project-laundry.jpg",
+    "image": "/projects/project-laundry.png",
     "tags": ["service", "landing-page", "business"],
     "links": { "demo": "https://laundry-umkm.vercel.app" }
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "GlowUp Clinic",
     "category": "Vibe Coding",
     "description": "Website klinik kecantikan Jakarta Selatan (company profile & services).",
-    "image": "/project-clinic.jpg",
+    "image": "/projects/project-clinic.png",
     "tags": ["beauty", "company-profile", "services"],
     "links": { "demo": "https://clinic-glowup.vercel.app" }
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Turtle Pricing Pro",
     "category": "Vibe Coding",
     "description": "Web app pricing calculator untuk bisnis junk removal.",
-    "image": "/project-turtle.jpg",
+    "image": "/projects/project-turtle.png",
     "tags": ["calculator", "pricing", "utility"],
     "links": { "demo": "https://turtle-pro.vercel.app" }
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Dashboard Test Cinta Zakat",
     "category": "Vibe Coding",
     "description": "Dashboard internal untuk keperluan testing dan QA aplikasi zakat.",
-    "image": "/project-zakat-dashboard.jpg",
+    "image": "/projects/project-zakat-dashboard.png",
     "tags": ["dashboard", "qa-tool", "internal"],
     "links": { "demo": "https://dashboard-bayarzakat.vercel.app" }
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "BakeTrack Dashboard",
     "category": "Vibe Coding",
     "description": "Dashboard manajemen dan tracking operasional bakery.",
-    "image": "/project-baketrack.jpg",
+    "image": "/projects/project-baketrack.png",
     "tags": ["dashboard", "management", "food"],
     "links": { "demo": "https://dashboarku-baketrack.vercel.app" }
+  },
+  {
+    "id": 16,
+    "title": "QA National Rollout (Legacy)",
+    "category": "QA Engineering",
+    "description": "Spearheaded national rollout testing for 30+ offices. Identified critical bugs and ensured stability.",
+    "image": "/project-qa-1.jpg",
+    "tags": ["Manual Testing", "Legacy", "Rollout"],
+    "links": {}
   }
 ]
