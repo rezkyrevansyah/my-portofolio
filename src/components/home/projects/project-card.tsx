@@ -11,6 +11,14 @@ export interface ProjectCardProps {
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
+  const primaryLink = project.links.demo || project.links.github;
+
+  const handleCardClick = () => {
+    if (primaryLink) {
+      window.open(primaryLink, "_blank", "noopener,noreferrer");
+    }
+  };
+
   return (
     <motion.div
       layout
@@ -18,7 +26,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
-      className="group relative bg-[#121624] rounded-3xl overflow-hidden border border-white/5 hover:border-white/10 transition-colors"
+      onClick={handleCardClick}
+      className={cn(
+        "group relative bg-[#121624] rounded-3xl overflow-hidden border border-white/5 hover:border-white/10 transition-colors",
+        primaryLink && "cursor-pointer"
+      )}
     >
       {/* Image Placeholder */}
       <div className="h-64 w-full bg-gradient-to-br from-gray-800 to-black relative overflow-hidden">
@@ -31,12 +43,24 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
           {project.links.github && (
-            <Link href={project.links.github} className="p-3 bg-white/10 rounded-full hover:bg-white/20 backdrop-blur-md transition-colors">
+            <Link 
+              href={project.links.github} 
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="p-3 bg-white/10 rounded-full hover:bg-white/20 backdrop-blur-md transition-colors"
+            >
               <Github className="w-6 h-6 text-white" />
             </Link>
           )}
           {project.links.demo && (
-             <Link href={project.links.demo} className="p-3 bg-brand-blue/80 rounded-full hover:bg-brand-blue backdrop-blur-md transition-colors">
+             <Link 
+               href={project.links.demo} 
+               target="_blank"
+               rel="noopener noreferrer"
+               onClick={(e) => e.stopPropagation()}
+               className="p-3 bg-brand-blue/80 rounded-full hover:bg-brand-blue backdrop-blur-md transition-colors"
+             >
               <ExternalLink className="w-6 h-6 text-white" />
             </Link>
           )}
@@ -52,7 +76,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
            </span>
         </div>
 
-        <h3 className="text-2xl font-bold text-white mb-3">{project.title}</h3>
+        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-brand-blue transition-colors">{project.title}</h3>
         <p className="text-gray-400 mb-6 line-clamp-2">{project.description}</p>
 
         <div className="flex flex-wrap gap-2">
