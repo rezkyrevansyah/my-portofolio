@@ -8,6 +8,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { ExperienceCard } from "@/components/career/experience-card";
 import { CompactCard } from "@/components/career/compact-card";
 import { BadgeCard } from "@/components/career/badge-card";
+import { AchievementCard } from "@/components/career/achievement-card";
 import portfolioData from "@/data/portfolio.json";
 
 export default function CareerPage() {
@@ -100,11 +101,11 @@ export default function CareerPage() {
             </section>
         </div>
 
-        {/* CERTIFICATIONS & AWARD GRID */}
+        {/* CERTIFICATIONS */}
         <section>
            <SectionHeader 
              icon={<Award />} 
-             title="Certifications & Achievements" 
+             title="Certifications" 
              action={
                 <a 
                   href={career.driveLink} 
@@ -124,6 +125,22 @@ export default function CareerPage() {
                   title={cert.title} 
                   subtitle={cert.subtitle} 
                   year={cert.year} 
+                />
+              ))}
+           </div>
+        </section>
+
+        {/* ACHIEVEMENTS */}
+        <section>
+           <SectionHeader icon={<Award />} title="Achievements" />
+           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {career.achievements?.map((ach, index) => (
+                <AchievementCard 
+                  key={index}
+                  title={ach.title} 
+                  subtitle={ach.subtitle} 
+                  year={ach.year}
+                  image={ach.image}
                 />
               ))}
            </div>

@@ -193,6 +193,10 @@
       { "title": "Test Case Design", "subtitle": "MySkill", "year": "2023" },
       { "title": "QA in SDLC", "subtitle": "MySkill", "year": "2023" }
     ],
+    "achievements": [
+        { "title": "1st Place Mobile Development", "subtitle": "Raion Hackjam 2022", "year": "2022", "image": "/images/achievements/raion-hackjam.jpg" },
+        { "title": "Finalist Gemastik XIV", "subtitle": "UX Design Category", "year": "2021", "image": "/images/achievements/gemastik.jpg" }
+    ],
     "driveLink": "https://bit.ly/Sertifikat-Course-Rezky"
   },
   "contact": {
