@@ -1,0 +1,214 @@
+{
+  "hero": {
+    "title": "Quality",
+    "titleCheck": "Assurance",
+    "subtitle": "& Vibe Coding",
+    "stickerText": "✨ Open for Collaboration!",
+    "description": "I help brands communicate to their audience through creative design, clever strategy, and technology.",
+    "stats": [
+      { "number": "+3", "label": "Years Experience", "color": "bg-brand-blue", "rotate": "-2" },
+      { "number": "50+", "label": "Bugs Squashed", "color": "bg-brand-orange", "rotate": "2" },
+      { "number": "10+", "label": "Projects Delivered", "color": "bg-brand-purple", "rotate": "-1" }
+    ],
+    "actions": {
+      "primary": "Explore Portfolio",
+      "secondary": "Download CV"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "name": "Revan",
+    "role": "QA Engineer & Vibe Coder",
+    "description": [
+      "I am an enthusiastic Information Technology graduate from Universitas Brawijaya (GPA 3.74) with a strong commitment to self-improvement.",
+      "I sit right at the intersection of breaking things (QA) and building them (Vibe Coding). With a background in comprehensive manual & automation testing, I ensure software quality is never an afterthought.",
+      "When I'm not hunting bugs or prompting AI, you can find me exploring new tech trends or refining my design eye."
+    ],
+    "tags": [
+      { "text": "Detail Oriented", "icon": "Heart", "variant": "fun" },
+      { "text": "Creative Thinker", "icon": "Sparkles", "variant": "purple" },
+      { "text": "Coffee Fuelled", "icon": "Coffee", "variant": "yellow" }
+    ],
+    "socials": {
+      "linkedin": "https://linkedin.com/in/rezkyrevansyah",
+      "whatsapp": "https://wa.me/6281283950403"
+    },
+    "photoPlaceholder": "/images/profile.png",
+    "skills": [
+      { "name": "Manual Testing", "icon": "ClipboardCheck" },
+      { "name": "Automation Testing", "icon": "Settings" },
+      { "name": "Python", "icon": "Code2" },
+      { "name": "Selenium", "icon": "Globe" },
+      { "name": "Katalon Studio", "icon": "Box" },
+      { "name": "Appium", "icon": "Smartphone" },
+      { "name": "Postman", "icon": "Send" },
+      { "name": "Figma", "icon": "PenTool" },
+      { "name": "Jira", "icon": "Trello" },
+      { "name": "HTML/CSS", "icon": "Layout" },
+      { "name": "JavaScript", "icon": "Code" },
+      { "name": "React", "icon": "Atom" },
+      { "name": "Next.js", "icon": "Zap" },
+      { "name": "Tailwind CSS", "icon": "Palette" },
+      { "name": "SQL", "icon": "Database" },
+      { "name": "Git", "icon": "GitBranch" }
+    ]
+  },
+  "capabilities": [
+    {
+      "title": "Quality Assurance",
+      "description": "Comprehensive manual & automation testing to ensure platform stability.",
+      "icon": "Search",
+      "tagColor": "bg-brand-blue",
+      "bgColor": "bg-[#1E293B]",
+      "delay": 0.1
+    },
+    {
+      "title": "Automation Testing",
+      "description": "Cypress, Selenium, and Katalon Studio integration for regression testing.",
+      "icon": "Laptop",
+      "tagColor": "bg-brand-orange",
+      "bgColor": "bg-[#271A1A]",
+      "delay": 0.2
+    },
+    {
+      "title": "Vibe Coding",
+      "description": "AI-assisted full-stack development using Next.js and Tailwind.",
+      "icon": "Code",
+      "tagColor": "bg-brand-purple",
+      "bgColor": "bg-[#1A1827]",
+      "delay": 0.3
+    },
+    {
+      "title": "Mobile Testing",
+      "description": "Android & iOS testing using Appium and real devices.",
+      "icon": "Smartphone",
+      "tagColor": "bg-brand-green",
+      "bgColor": "bg-[#132A24]",
+      "delay": 0.4
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "TerraScan (LASKAR AI)",
+      "category": "Vibe Coding",
+      "description": "AI-based capstone project for analyzing and visualizing environmental data. Built end-to-end ML workflows.",
+      "image": "/project-vibe-1.jpg",
+      "tags": ["Python", "Streamlit", "Pandas", "Machine Learning"],
+      "links": { "demo": "https://project-terra.streamlit.app/" }
+    },
+    {
+      "id": 2,
+      "title": "BAZNAS National Platform",
+      "category": "QA Engineering",
+      "description": "Spearheaded national rollout testing for 30+ offices. Identified critical bugs and ensured stability.",
+      "image": "/project-qa-1.jpg",
+      "tags": ["Manual Testing", "Jira", "Regression Testing"],
+      "links": {}
+    },
+    {
+      "id": 3,
+      "title": "Digital Experiences App",
+      "category": "Vibe Coding",
+      "description": "Bangkit Academy Capstone. Android app for revolutionizing sustainable tourism. Top 50 National Team.",
+      "image": "/project-vibe-2.jpg",
+      "tags": ["Android", "Machine Learning", "Cloud Computing"],
+      "links": {}
+    },
+    {
+      "id": 4,
+      "title": "Raion Hackjam App",
+      "category": "Vibe Coding",
+      "description": "First Place winner in Apps Development category at Raion Hackjam 2022.",
+      "image": "/project-qa-2.jpg",
+      "tags": ["Mobile Dev", "Hackathon", "UI/UX"],
+      "links": {}
+    }
+  ],
+  "career": {
+    "header": {
+      "title": "Career Journey",
+      "subtitle": "My professional path, education, and milestones."
+    },
+    "experience": [
+      {
+        "role": "Quality Assurance Tester",
+        "company": "BAZNAS RI",
+        "period": "Sep 2025 - Present",
+        "type": "Full-time",
+        "description": "Spearheaded national application training and rollout across 30+ offices. Identified and tracked critical application issues through systematic testing. Collaborated with Product Owners and developers.",
+        "skills": ["Manual Testing", "Training", "Bug Tracking", "Collaboration"],
+        "color": "border-l-brand-orange"
+      },
+      {
+        "role": "QA Tester (Internship)",
+        "company": "Nusantara Beta Studio",
+        "period": "Mar 2025 - Aug 2025",
+        "type": "Internship",
+        "description": "Performed manual testing on web/mobile apps for high-profile clients like Kementerian Ekonomi Kreatif, Pegadaian, and TBIG.",
+        "skills": ["Manual Testing", "Mobile Testing", "Web Testing"],
+        "color": "border-l-brand-blue"
+      },
+      {
+        "role": "QA Tester (Internship)",
+        "company": "BAZNAS RI",
+        "period": "Sep 2024 - Dec 2024",
+        "type": "Internship",
+        "description": "Executed detailed test cases across platform features. Ensured functional, regression, and end-to-end testing coverage.",
+        "skills": ["Test Cases", "Regression Testing", "E2E Testing"],
+        "color": "border-l-brand-purple"
+      }
+    ],
+    "education": [
+      {
+        "title": "Bachelor of Information Technology",
+        "subtitle": "Universitas Brawijaya",
+        "meta": "Aug 2021 - Jul 2025 | GPA: 3.74",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "Mobile Development Path",
+        "subtitle": "Bangkit Academy 2024",
+        "meta": "Feb 2024 - Jun 2024",
+        "icon": "GraduationCap"
+      }
+    ],
+    "organizations": [
+      {
+        "title": "Head of Supervisor",
+        "subtitle": "Raion Community",
+        "meta": "Jan 2023 - Jan 2024",
+        "icon": "Users"
+      },
+      {
+        "title": "Vice Head - Design & Multimedia",
+        "subtitle": "PORSIMABA 2023",
+        "meta": "Oct 2023 - Nov 2023",
+        "icon": "Users"
+      }
+    ],
+    "certifications": [
+      { "title": "Intermediate Android Development", "subtitle": "Dicoding", "year": "2024" },
+      { "title": "Applied ML for Android", "subtitle": "Dicoding", "year": "2024" },
+      { "title": "Test Case Design", "subtitle": "MySkill", "year": "2023" },
+      { "title": "QA in SDLC", "subtitle": "MySkill", "year": "2023" }
+    ],
+    "driveLink": "https://bit.ly/Sertifikat-Course-Rezky"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "heading": "Let's create something",
+    "headingHighlight": "amazing together.",
+    "description": "Whether you have a question, a project idea, or just want to say hi, I'm always open to new opportunities.",
+    "email": "rezky.revansyah@gmail.com",
+    "whatsapp": {
+      "link": "https://wa.me/6281283950403",
+      "display": "+62 812-8395-0403"
+    },
+    "linkedin": {
+      "link": "https://linkedin.com/in/rezkyrevansyah",
+      "display": "linkedin.com/in/rezkyrevansyah"
+    },
+    "medium": "https://medium.com/@rezkyrevansyah"
+  }
+}
