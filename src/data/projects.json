@@ -4,9 +4,9 @@
     "title": "TerraScan",
     "category": "AI Engineering",
     "description": "Led the development of an AI-based soil analysis platform. Designed full-cycle ML systems from data visualization to model deployment using Python and Streamlit.",
-    "image": "/images/projects/ai-terrascan.png",
+    "image": "/images/projects/qa-terra-project.png",
     "tags": ["AI/ML", "Python", "Streamlit", "Computer Vision"],
-    "links": { "demo": "https://project-terra.streamlit.app/" }
+    "links": { "demo": "https://terrascan-git.streamlit.app/" }
   },
   {
     "id": 2,

@@ -84,14 +84,23 @@
       "icon": "Monitor"
     }
   ],
-  "certifications": [
-    { "title": "Pengembangan Aplikasi Android Intermediate", "subtitle": "Dicoding", "year": "Jul 2024" },
-    { "title": "Penerapan Machine Learning untuk Android", "subtitle": "Dicoding", "year": "May 2024" },
-    { "title": "Dasar AI", "subtitle": "Dicoding", "year": "Apr 2024" },
-    { "title": "Test Case Design", "subtitle": "MySkill", "year": "Dec 2023" },
-    { "title": "QA in SDLC", "subtitle": "MySkill", "year": "Dec 2023" },
-    { "title": "Quality Assurance Fundamental", "subtitle": "MySkill", "year": "Dec 2023" }
-  ],
+ "certifications": [
+  { "title": "Belajar Dasar Visualisasi Data", "subtitle": "Dicoding", "year": "Feb 2025" },
+  { "title": "Belajar Dasar Data Science", "subtitle": "Dicoding", "year": "Jan 2026" },
+  { "title": "Belajar Dasar Structured Query Language (SQL)", "subtitle": "Dicoding", "year": "Jan 2026" },
+  { "title": "Memulai Pemrograman dengan Python", "subtitle": "Dicoding", "year": "Mar 2025" },
+  { "title": "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software", "subtitle": "Dicoding", "year": "Feb 2025" },
+  { "title": "Pengenalan ke Logika Pemrograman (Programming Logic 101)", "subtitle": "Dicoding", "year": "Feb 2025" },
+  { "title": "Belajar Dasar AI", "subtitle": "Dicoding", "year": "Feb 2025" },
+  { "title": "Belajar Dasar Git dengan GitHub", "subtitle": "Dicoding", "year": "Feb 2025" },
+  { "title": "Belajar Pengembangan Aplikasi Android Intermediate", "subtitle": "Dicoding", "year": "Jun 2024" },
+  { "title": "Belajar Penerapan Machine Learning untuk Android", "subtitle": "Dicoding", "year": "May 2024" },
+  { "title": "Belajar Fundamental Aplikasi Android", "subtitle": "Dicoding", "year": "Apr 2024" },
+  { "title": "Belajar Prinsip Pemrograman SOLID", "subtitle": "Dicoding", "year": "Apr 2024" },
+  { "title": "Belajar Membuat Aplikasi Android untuk Pemula", "subtitle": "Dicoding", "year": "Mar 2024" },
+  { "title": "Memulai Pemrograman dengan Kotlin", "subtitle": "Dicoding", "year": "Feb 2024" },
+  { "title": "Bangkit Mobile Development (Top 50 Capstone)", "subtitle": "Bangkit Academy", "year": "Jul 2024" }
+],
   "achievements": [
     { 
       "title": "1st Place Apps Development", 
