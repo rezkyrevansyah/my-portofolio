@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { User, Heart, Sparkles, Coffee } from "lucide-react";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { SocialButton } from "@/components/ui/social-button";
 import aboutData from "@/data/about.json";
@@ -48,7 +47,7 @@ export function AboutMe() {
 
              <div className="space-y-6 text-lg text-gray-300 leading-relaxed font-light">
                {about.description.map((paragraph, index) => (
-                 <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} /> 
+                 <p key={index}>{paragraph}</p>
                ))}
              </div>
 
