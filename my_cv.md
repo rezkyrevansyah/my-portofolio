@@ -1,183 +1,80 @@
-# M. Rezky Revansyah Suprihono
+M. REZKY REVANSYAH SUPRIHONO
+Bekasi Utara, Kota Bekasi | +6281283950403 | rezky.revansyah@gmail.com | linkedin.com/in/rezkyrevansyah/
 
-📍 Bekasi Utara, Kota Bekasi  
-📞 +62 812-8395-0403  
-📧 rezky.revansyah@gmail.com  
-🔗 LinkedIn: https://linkedin.com/in/rezkyrevansyah  
-✍️ Medium: https://medium.com/@rezkyrevansyah
+**PROFESSIONAL SUMMARY**
+Detail-oriented Quality Assurance Engineer and Information Technology Graduate (GPA 3.74/4.00) with a strong foundation in automation testing, AI engineering, and mobile development. Proven track record of improving application stability for national-scale platforms and leading high-performing teams in tech competitions. Committed to delivering bug-free, user-centric software solutions through rigorous testing and innovative problem-solving.
 
----
+**WORK EXPERIENCE**
+**( https://bit.ly/Experience-Rezky )**
 
-## Professional Summary
+**Badan Amil Zakat Nasional (BAZNAS) RI** — _Jakarta_
+_Quality Assurance Tester_ | Sep 2025 – Present
 
-I am an enthusiastic **Information Technology graduate** from Universitas Brawijaya with a strong commitment to **self-improvement** and a proven record of achievements in various competitions.  
-I am interested in technology-related roles, where I have developed essential skills such as **teamwork, adaptability, and excellent communication**. I am highly motivated to give my best performance, as demonstrated through my academic background, organizational involvement, and continuous learning experiences.
+- Performed manual and automation testing on national-scale applications, including functional, regression, and integration testing to ensure system reliability.
+- Supported CI/CD pipeline testing, validating application behavior across environments before deployment and minimizing release issues.
+- Managed defect tracking and test coordination using Jira, collaborating closely with developers and Product Owners to resolve issues efficiently.
 
----
+**Nusantara Beta Studio** — _Jakarta_
+_Quality Assurance Tester Internship_ | Mar 2025 – Aug 2025
 
-## Education
+- **Executed comprehensive manual testing strategies** for high-stakes client projects including Kementerian Ekonomi Kreatif, Pegadaian, and Tower Bersama Group (TBIG).
+- **Facilitated cross-functional coordination** between developers and project managers, significantly accelerating product iteration cycles and ensuring seamless deployments.
+- **Validated web and mobile applications** to verify functional compliance and visual consistency across all target devices.
 
-**Universitas Brawijaya** — Malang, Jawa Timur  
-Bachelor of Information Technology  
-_Aug 2021 – Jul 2025_  
-**GPA:** 3.74 / 4.00
+**Badan Amil Zakat Nasional (BAZNAS) RI** — _Jakarta_
+_Quality Assurance Tester Internship_ | Sep 2024 – Dec 2024
 
----
+- **Designed and executed detailed test cases** (Functional, Regression, E2E) across key platform modules, achieving high test coverage and ensuring system reliability.
+- **Identified and resolved critical vulnerabilities** pre-release, safeguarding the user experience for a large user base.
+- **Produced high-quality testing documentation**, creating a standardized reference for future QA cycles and onboarding.
 
-## Professional Experience
+**EDUCATION & PROFESSIONAL DEVELOPMENT**
 
-🔗 Detailed experience: https://bit.ly/Experience-Rezky
+**Universitas Brawijaya** — _Malang_
+_Bachelor of Information Technology_ | Aug 2021 – Jul 2025
 
-### Quality Assurance Tester
+- **GPA:** 3.74 / 4.00
+- **Focus:** Software Engineering, Quality Assurance, Human-Computer Interaction.
 
-**Badan Amil Zakat Nasional Republik Indonesia (BAZNAS RI)** — Matraman, Jakarta  
-_Sep 2025 – Present_
+**LASKAR AI 2025**
+_AI Engineer Cohort_ | Feb 2025 – Jul 2025
 
-- Spearheaded national application training and rollout across **30+ BAZNAS offices**, enhancing user adoption and standardizing operations nationwide.
-- Proactively identified and tracked critical application issues through systematic testing, directly improving platform stability and preventing user-impacting bugs.
-- Collaborated with Product Owners and developers to align technical execution with business requirements, ensuring optimal application performance.
+- **Leadership:** Led the capstone team for **"TerraScan"**, an AI-based soil analysis project.
+- **Technical Implementation:** Built full-cycle ML systems using Python (Pandas, NumPy, Scikit-learn), handling everything from data visualization to model deployment.
 
----
+**Bangkit Academy 2024 (Google, GoTo, Traveloka)**
+_Mobile Development Learning Path_ | Feb 2024 – Jun 2024
 
-### Quality Assurance Tester (Internship)
+- **Achievement:** Top 50 Capstone Project (out of 580+ teams).
+- **Project:** Led the development of "Digital Experiences," an Android app for sustainable tourism, coordinating a cross-disciplinary team of 6 members.
 
-**Nusantara Beta Studio** — Bintaro, Jakarta  
-_Mar 2025 – Aug 2025_
+**ORGANIZATIONAL EXPERIENCE**
+**( https://bit.ly/Organizations-Rezky )**
 
-- Performed **manual testing** on web and mobile applications to ensure product quality and functional accuracy.
-- Collaborated closely with developers and project managers to support smooth product iterations.
-- Contributed to projects for high-profile clients, including **Kementerian Ekonomi Kreatif, Pegadaian, Erafone, and Tower Bersama Group (TBIG)**.
+**Raion Community (UB)** — _Head of Supervisor_ | Jan 2023 – Jan 2024
 
----
+- Managed 6 divisions and 50+ members, supervising 5+ distinct events to upgrade students' skills in mobile and game development.
+- Established effective communication channels with 30+ external collaborators and partners like Dana and Agate.
 
-### Quality Assurance Tester (Internship)
+**NISARA** — _UI/UX Team_ | Jul 2023 – Jan 2024
 
-**Badan Amil Zakat Nasional Republik Indonesia (BAZNAS RI)** — Matraman, Jakarta  
-_Sep 2024 – Dec 2024_
+- Conducted end-to-end UX/UI design (Research, Prototyping, Testing) for web platforms, delivering 10+ completed pages with 100% fidelity.
 
-- Developed and executed detailed test cases across a wide range of BAZNAS platform features.
-- Ensured comprehensive coverage of **functional, regression, and end-to-end testing** to identify issues early in the development cycle.
-- Mitigated critical bugs prior to public releases, reducing the risk of major user experience issues.
-- Collaborated with development and product owner teams to maintain product quality and produce structured testing documentation.
+**SKILLS & TOOLS**
 
----
+- **Testing & QA:** Manual Testing, Automation Testing, Regression Testing, E2E Testing, Test Case Design.
+- **Languages & Frameworks:** Python, Kotlin, Java, JavaScript, HTML/CSS.
+- **Tools:** Selenium, Katalon Studio, Cypress, Appium, Postman, Jira, Git/GitHub, Figma, Android Studio.
+- **Soft Skills:** Leadership, Problem Solving, Analytical Thinking, Team Collaboration, Adaptability.
 
-## Organizational Experience
+**CERTIFICATIONS**
 
-🔗 Details: https://bit.ly/Organizations-Rezky
+- **Dicoding:** Intermediate Android Dev (2024), Applied ML for Android (2024), AI Fundamentals (2024).
+- **MySkill:** Test Case Design (2023), QA in SDLC (2023), QA Fundamentals (2023).
 
-### Head of Supervisor
+**ACHIEVEMENTS**
+**( https://bit.ly/Achievements-Rezky )**
 
-**Raion Community** — Faculty of Computer Science, Universitas Brawijaya  
-_Jan 2023 – Jan 2024_
-
-- Led supervision within an internal student community focused on **mobile and game development**.
-- Coordinated with **30+ students** beyond the organizing committee to establish effective communication with organizational management.
-- Generated structured reports for the chairman to support decision-making.
-- Supervised **5+ major events** and managed **6 divisions**, each with more than **50 members**, providing insights for continuous improvement.
-- Collaborated with industry partners such as **Dana** and **Agate** as learning partners.
-
----
-
-## Volunteering Experience
-
-### Vice Head — Design, Documentation, & Multimedia Division
-
-**PORSIMABA 2023**  
-_Oct 2023 – Nov 2023_
-
-- Collaborated with a team of 6 members in a faculty-level competition.
-- Produced **80+ feed designs**, **15+ story designs**, and **10+ decoration designs** with a 100% completion rate.
-
----
-
-### Operator Team
-
-**GEMASTIK XV**  
-_Oct 2022 – Nov 2022_
-
-- Assisted in presenting materials for **15+ teams**.
-- Achieved a **98% satisfaction rate** based on participant evaluation surveys.
-
----
-
-## Additional Experience
-
-🔗 More details: https://bit.ly/rezky-bangkit
-
-### AI Engineer Cohort
-
-**LASKAR AI 2025**  
-_Feb 2025 – Jul 2025_
-
-- Led a capstone team to develop an AI-based project titled **“TerraScan.”**  
-  🌐 https://project-terra.streamlit.app/
-- Designed and implemented end-to-end machine learning workflows, including data analysis, visualization, model training, and deployment.
-- Utilized **Python, Pandas, NumPy, Matplotlib, and Seaborn** to solve real-world business problems.
-
----
-
-### Mobile Development Learning Path
-
-**Bangkit Academy 2024** — by Google, GoTo, Traveloka  
-_Feb 2024 – Jun 2024_
-
-- Led a capstone team developing an Android application themed  
-  **“Digital Experiences: Revolutionizing Sustainable Tourism.”**
-- Collaborated with **6+ members** across Machine Learning, Cloud Computing, and Mobile Development paths.
-- Achieved **Top 50 Capstone Teams** out of **580+ teams** nationwide.
-
----
-
-## Certifications
-
-🔗 Certificates: https://bit.ly/Sertifikat-Course-Rezky
-
-- Pengembangan Aplikasi Android Intermediate — Dicoding (Jul 2024)
-- Penerapan Machine Learning untuk Android — Dicoding (May 2024)
-- Dasar AI — Dicoding (Apr 2024)
-- Test Case Design — MySkill (Dec 2023)
-- QA in SDLC — MySkill (Dec 2023)
-- Quality Assurance Fundamental — MySkill (Dec 2023)
-
----
-
-## Achievements
-
-🔗 Details: https://bit.ly/Achievements-Rezky
-
-- 🥇 1st Place — Apps Development, Raion Hackjam 2022
-- 🥈 2nd Place — UI/UX Design Competition, IT MOSPHERE 2022
-- 🎖 Finalist — UI/UX Design Competition, INFINITY 2023
-- 🎖 Finalist — Creative Video Competition, 4C National Competition 2023
-
----
-
-## Skills
-
-### Hard Skills
-
-- Quality Assurance
-- Automation Testing
-- Test Scenario & Test Case Design
-- SDLC
-- UI/UX Design, Wireframing, Prototyping
-
-### Soft Skills
-
-- Attention to Detail
-- Excellent Communication
-- Adaptability
-- Organization & Time Management
-- Leadership & Teamwork
-- Problem Solving
-- Analytical Thinking
-- Public Speaking
-
-### Tools & Technologies
-
-- Cypress, Selenium, Katalon Studio
-- Postman, Jira, Trello
-- GitHub, Visual Studio Code, Android Studio
-- Figma, Slack
-- Microsoft Office, Google Workspace
+- **1st Place**, Apps Development, Raion Hackjam 2022.
+- **2nd Place**, UI/UX Design, IT MOSPHERE 2022.
+- **Finalist**, UI/UX Design, INFINITY 2023 (ITB STIKOM Bali).

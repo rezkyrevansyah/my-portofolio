@@ -1,38 +1,34 @@
 {
   "title": "About Me",
   "name": "Revan",
-  "role": "QA Engineer & Vibe Coder",
+  "role": "QA Engineer & AI Enthusiast",
   "description": [
-    "I am an enthusiastic Information Technology graduate from Universitas Brawijaya (GPA 3.74) with a strong commitment to self-improvement.",
-    "I sit right at the intersection of breaking things (QA) and building them (Vibe Coding). With a background in comprehensive manual & automation testing, I ensure software quality is never an afterthought.",
-    "When I'm not hunting bugs or prompting AI, you can find me exploring new tech trends or refining my design eye."
+    "Detail-oriented Quality Assurance Engineer and Information Technology Graduate (GPA 3.74/4.00) with a strong foundation in automation testing and AI engineering.",
+    "I have a proven track record of improving application stability for national-scale platforms and leading high-performing teams in tech competitions. My approach combines technical precision with innovative problem-solving.",
+    "Committed to delivering bug-free, user-centric software solutions. I continuously hone my skills in tools like Selenium, Katalon, and Python to stay ahead of the curve."
   ],
   "tags": [
     { "text": "Detail Oriented", "icon": "Heart", "variant": "fun" },
-    { "text": "Creative Thinker", "icon": "Sparkles", "variant": "purple" },
-    { "text": "Coffee Fuelled", "icon": "Coffee", "variant": "yellow" }
+    { "text": "Adaptable", "icon": "Sparkles", "variant": "purple" },
+    { "text": "Team Player", "icon": "Coffee", "variant": "yellow" }
   ],
   "socials": {
-    "linkedin": "https://linkedin.com/in/rezkyrevansyah",
+    "linkedin": "https://linkedin.com/in/rezkyrevansyah/",
     "whatsapp": "https://wa.me/6281283950403"
   },
   "photoPlaceholder": "/images/profile.png",
   "skills": [
-    { "name": "Manual Testing", "icon": "ClipboardCheck" },
     { "name": "Automation Testing", "icon": "Settings" },
+    { "name": "Manual Testing", "icon": "ClipboardCheck" },
+    { "name": "Test Strategy", "icon": "ShieldCheck" },
     { "name": "Python", "icon": "Code2" },
-    { "name": "Selenium", "icon": "Globe" },
     { "name": "Katalon Studio", "icon": "Box" },
-    { "name": "Appium", "icon": "Smartphone" },
+    { "name": "Selenium", "icon": "Globe" },
+    { "name": "Cypress", "icon": "CheckCircle" },
     { "name": "Postman", "icon": "Send" },
-    { "name": "Figma", "icon": "PenTool" },
     { "name": "Jira", "icon": "Trello" },
-    { "name": "HTML/CSS", "icon": "Layout" },
-    { "name": "JavaScript", "icon": "Code" },
-    { "name": "React", "icon": "Atom" },
-    { "name": "Next.js", "icon": "Zap" },
-    { "name": "Tailwind CSS", "icon": "Palette" },
-    { "name": "SQL", "icon": "Database" },
-    { "name": "Git", "icon": "GitBranch" }
+    { "name": "Android Studio", "icon": "Smartphone" },
+    { "name": "Figma", "icon": "PenTool" },
+    { "name": "Git & GitHub", "icon": "GitBranch" }
   ]
 }

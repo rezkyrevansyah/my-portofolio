@@ -1,13 +1,13 @@
 {
-  "title": "Quality",
-  "titleCheck": "Assurance",
-  "subtitle": "& Vibe Coding",
-  "stickerText": "✨ Open for Collaboration!",
-  "description": "I help brands communicate to their audience through creative design, clever strategy, and technology.",
+  "title": "Quality Assurance",
+  "titleCheck": "Engineer",
+  "subtitle": "& AI Enthusiast",
+  "stickerText": "✨ Open for Opportunities!",
+  "description": "Detail-oriented QA Engineer and IT Graduate with a passion for building bug-free, user-centric software. I combine technical precision in automation testing with innovative AI engineering.",
   "stats": [
-    { "number": "+3", "label": "Years Experience", "color": "bg-brand-blue", "rotate": "-2" },
-    { "number": "50+", "label": "Bugs Squashed", "color": "bg-brand-orange", "rotate": "2" },
-    { "number": "10+", "label": "Projects Delivered", "color": "bg-brand-purple", "rotate": "-1" }
+    { "number": "3.74", "label": "GPA", "color": "bg-brand-blue", "rotate": "-2" },
+    { "number": "10+", "label": "Projects Delivered", "color": "bg-brand-orange", "rotate": "2" },
+    { "number": "5+", "label": "Competitions Won", "color": "bg-brand-purple", "rotate": "-1" }
   ],
   "actions": {
     "primary": "Explore Portfolio",
