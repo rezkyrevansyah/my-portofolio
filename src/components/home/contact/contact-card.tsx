@@ -18,6 +18,7 @@ export const ContactCard = memo(function ContactCard({ href, icon, title, value,
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={`Contact via ${title}: ${value}`}
       className={cn(
         "group flex items-center justify-between p-5 md:p-8 rounded-3xl bg-[#0B0F19] border border-white/10 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2 focus-visible:ring-offset-background",
         color

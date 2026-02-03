@@ -3,6 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/home/Hero";
 import { AboutMe } from "@/components/home/AboutMe";
 import { Footer } from "@/components/layout/Footer";
+import { ErrorBoundary } from "@/components/ui/error-boundary";
 
 // Dynamic imports for heavy components (code splitting)
 const SkillsMarquee = dynamic(
@@ -31,10 +32,18 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutMe />
-      <SkillsMarquee />
-      <Capabilities />
-      <FeaturedProjects />
-      <Contact />
+      <ErrorBoundary>
+        <SkillsMarquee />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Capabilities />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <FeaturedProjects />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Contact />
+      </ErrorBoundary>
       <Footer />
     </main>
   );
