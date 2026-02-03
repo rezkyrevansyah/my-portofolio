@@ -83,7 +83,7 @@
   {
     "id": 10,
     "title": "Kopi & Roti Senja",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Landing page UMKM kopi & roti.",
     "image": "/images/projects/vibe-kopi-senja.png",
     "tags": ["landing-page", "umkm", "Food & Beverage"],
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "title": "Financial Tracking App",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Aplikasi web untuk pencatatan dan monitoring keuangan.",
     "image": "/images/projects/vibe-finance.png",
     "tags": ["finance", "web-app", "utility"],
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "title": "Masjid Al Arqam Profile",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Website profil masjid untuk informasi dan publikasi kegiatan.",
     "image": "/images/projects/vibe-masjid.png",
     "tags": ["profile", "community", "information"],
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "title": "Laundry Express Kilat",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Landing page layanan laundry dengan konsep jemput–antar.",
     "image": "/images/projects/vibe-laundry.png",
     "tags": ["service", "landing-page", "business"],
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "title": "GlowUp Clinic",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Website klinik kecantikan Jakarta Selatan (company profile & services).",
     "image": "/images/projects/vibe-clinic.png",
     "tags": ["beauty", "company-profile", "services"],
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "title": "Turtle Pricing Pro",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Web app pricing calculator untuk bisnis junk removal.",
     "image": "/images/projects/vibe-turtle.png",
     "tags": ["calculator", "pricing", "utility"],
@@ -137,7 +137,7 @@
   {
     "id": 16,
     "title": "Dashboard Test Cinta Zakat",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Dashboard internal untuk keperluan testing dan QA aplikasi zakat.",
     "image": "/images/projects/vibe-zakat-dashboard.png",
     "tags": ["dashboard", "qa-tool", "internal"],
@@ -146,7 +146,7 @@
   {
     "id": 17,
     "title": "BakeTrack Dashboard",
-    "category": "Vibe Coding",
+    "category": "Web Development",
     "description": "Dashboard manajemen dan tracking operasional bakery.",
     "image": "/images/projects/vibe-baketrack.png",
     "tags": ["dashboard", "management", "food"],

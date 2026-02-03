@@ -39,7 +39,7 @@ export function FeaturedProjects() {
              viewport={{ once: true }}
              className="flex flex-wrap justify-center gap-2 p-2 bg-white/5 rounded-2xl md:rounded-full border border-white/10"
           >
-            {(["All", "QA Engineering", "Vibe Coding", "UI/UX Design"] as ProjectCategory[]).map((cat) => (
+            {(["All", "QA Engineering", "Web Development", "UI/UX Design"] as ProjectCategory[]).map((cat) => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
@@ -56,17 +56,42 @@ export function FeaturedProjects() {
           </motion.div>
         </div>
 
-        <motion.div
-          layout
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
-        >
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </motion.div>
+        {filteredProjects.length > 0 ? (
+          <motion.div
+            layout
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="grid grid-cols-1 md:grid-cols-2 gap-8"
+          >
+            {filteredProjects.map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
+          </motion.div>
+        ) : (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex flex-col items-center justify-center py-16 px-6"
+          >
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12 text-center max-w-lg">
+              <div className="text-6xl mb-4">🎨✨</div>
+              <h3 className="text-2xl font-semibold text-white mb-3">
+                Coming Soon! 🚀
+              </h3>
+              <p className="text-gray-400 text-lg mb-6">
+                No projects here yet, but exciting things are in the works! 👀
+              </p>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-brand-blue hover:bg-brand-blue/80 text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-brand-blue/25"
+              >
+                <span>Contact me for details</span>
+                <span>💬</span>
+              </a>
+            </div>
+          </motion.div>
+        )}
       </div>
     </section>
   );
