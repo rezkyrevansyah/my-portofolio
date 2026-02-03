@@ -5,15 +5,8 @@
     "icon": "ShieldCheck",
     "tagColor": "bg-brand-blue",
     "bgColor": "bg-[#1E293B]",
-    "delay": 0.1
-  },
-  {
-    "title": "UI/UX Design",
-    "description": "Crafting intuitive, user-centric, and visually stunning digital experiences that delight users.",
-    "icon": "Palette",
-    "tagColor": "bg-pink-500",
-    "bgColor": "bg-[#251018]",
-    "delay": 0.2
+    "delay": 0.1,
+    "category": "QA Engineering"
   },
   {
     "title": "Web Development",
@@ -21,6 +14,16 @@
     "icon": "Sparkles",
     "tagColor": "bg-brand-orange",
     "bgColor": "bg-[#1A1827]",
-    "delay": 0.3
+    "delay": 0.2,
+    "category": "Web Development"
+  },
+  {
+    "title": "UI/UX Design",
+    "description": "Crafting intuitive, user-centric, and visually stunning digital experiences that delight users.",
+    "icon": "Palette",
+    "tagColor": "bg-pink-500",
+    "bgColor": "bg-[#251018]",
+    "delay": 0.3,
+    "category": "UI/UX Design"
   }
 ]

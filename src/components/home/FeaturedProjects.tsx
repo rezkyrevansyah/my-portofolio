@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { ProjectCard } from "@/components/home/projects/project-card";
 import { Project, ProjectCategory } from "@/types";
@@ -12,6 +12,21 @@ const projects: Project[] = projectsData as unknown as Project[];
 
 export function FeaturedProjects() {
   const [filter, setFilter] = useState<ProjectCategory>("All");
+
+  // Listen for filter changes from capability cards
+  useEffect(() => {
+    const handleSetFilter = (event: CustomEvent<string>) => {
+      const category = event.detail as ProjectCategory;
+      if (["All", "QA Engineering", "Web Development", "UI/UX Design"].includes(category)) {
+        setFilter(category);
+      }
+    };
+
+    window.addEventListener("setProjectFilter", handleSetFilter as EventListener);
+    return () => {
+      window.removeEventListener("setProjectFilter", handleSetFilter as EventListener);
+    };
+  }, []);
 
   const filteredProjects = projects.filter(
     (project) => filter === "All" || project.category === filter

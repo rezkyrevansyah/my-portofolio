@@ -21,22 +21,16 @@ export function ExperienceCard({ role, company, period, type, description, skill
       "border-l-4", color // Colorful left border accent
     )}>
        {/* Header Section */}
-       <div className="flex flex-col gap-3 mb-4">
-          {/* Role Title */}
-          <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-brand-blue transition-colors">
-            {role}
-          </h3>
+       <div className="mb-4">
+          {/* Desktop: Role + Badges in same row | Mobile: Stacked */}
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-2">
+            {/* Role Title */}
+            <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-brand-blue transition-colors">
+              {role}
+            </h3>
 
-          {/* Company & Meta Info */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            {/* Company Name */}
-            <div className="flex items-center gap-2 text-gray-400 font-medium">
-               <Building2 className="w-4 h-4 flex-shrink-0" />
-               <span className="text-sm sm:text-base">{company}</span>
-            </div>
-
-            {/* Type & Period Badges */}
-            <div className="flex items-center gap-2 flex-wrap">
+            {/* Type & Period Badges - Top right on desktop */}
+            <div className="flex items-center gap-2 flex-shrink-0">
                <span className="text-xs sm:text-sm px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-gray-300">
                  {type}
                </span>
@@ -45,6 +39,12 @@ export function ExperienceCard({ role, company, period, type, description, skill
                   <span>{period}</span>
                </div>
             </div>
+          </div>
+
+          {/* Company Name */}
+          <div className="flex items-center gap-2 text-gray-400 font-medium">
+             <Building2 className="w-4 h-4 flex-shrink-0" />
+             <span className="text-sm sm:text-base">{company}</span>
           </div>
        </div>
 

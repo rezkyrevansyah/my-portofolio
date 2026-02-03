@@ -12,9 +12,20 @@ export interface CapabilityCardProps {
   tagColor: string;
   bgColor: string;
   delay: number;
+  category: string;
 }
 
-export const CapabilityCard = memo(function CapabilityCard({ title, description, icon, tagColor, bgColor, delay }: CapabilityCardProps) {
+export const CapabilityCard = memo(function CapabilityCard({ title, description, icon, tagColor, bgColor, delay, category }: CapabilityCardProps) {
+  const handleViewProject = () => {
+    // Navigate to portfolio section with filter
+    const portfolioSection = document.getElementById("portfolio");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+      // Dispatch custom event to set filter
+      window.dispatchEvent(new CustomEvent("setProjectFilter", { detail: category }));
+    }
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -42,9 +53,12 @@ export const CapabilityCard = memo(function CapabilityCard({ title, description,
         </p>
       </div>
 
-      <div className="flex items-center gap-2 text-sm font-medium text-white opacity-60 group-hover:opacity-100 transition-opacity cursor-pointer mt-6">
+      <button
+        onClick={handleViewProject}
+        className="flex items-center gap-2 text-sm font-medium text-white opacity-60 group-hover:opacity-100 transition-opacity cursor-pointer mt-6 hover:gap-3"
+      >
         View Project <Play className="w-3 h-3 fill-white" />
-      </div>
+      </button>
     </motion.div>
   );
 });

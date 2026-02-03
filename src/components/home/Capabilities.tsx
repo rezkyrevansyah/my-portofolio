@@ -44,9 +44,14 @@ export function Capabilities() {
 
          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
            {capabilities.map((cap, index) => (
-             <CapabilityCard 
-               key={index} 
-               {...cap} 
+             <CapabilityCard
+               key={index}
+               title={cap.title}
+               description={cap.description}
+               tagColor={cap.tagColor}
+               bgColor={cap.bgColor}
+               delay={cap.delay}
+               category={cap.category}
                icon={getIcon(cap.icon)}
              />
            ))}
