@@ -5,18 +5,11 @@ import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useScrolled } from "@/hooks";
 
 export function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
+  const scrolled = useScrolled(20);
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   // Prevent scrolling when menu is open
   useEffect(() => {

@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Card } from "@/components/ui/card";
@@ -11,9 +12,9 @@ interface StatCardProps {
   rotate: string;
 }
 
-export function StatCard({ number, label, color, rotate }: StatCardProps) {
+export const StatCard = memo(function StatCard({ number, label, color, rotate }: StatCardProps) {
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -27,4 +28,4 @@ export function StatCard({ number, label, color, rotate }: StatCardProps) {
       </Card>
     </motion.div>
   );
-}
+});

@@ -23,7 +23,7 @@ export default function CareerPage() {
   };
 
   return (
-    <main className="min-h-screen bg-background text-white selection:bg-brand-orange selection:text-white pb-20">
+    <main id="main-content" className="min-h-screen bg-background text-white selection:bg-brand-orange selection:text-white pb-20">
       <Navbar />
       
       {/* HEADER */}
@@ -111,7 +111,7 @@ export default function CareerPage() {
                   href={career.driveLink} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brand-blue/10 text-brand-blue border border-brand-blue/20 hover:bg-brand-blue/20 transition-all font-medium text-sm group"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brand-blue/10 text-brand-blue border border-brand-blue/20 hover:bg-brand-blue/20 transition-all font-medium text-sm group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2 focus-visible:ring-offset-background"
                 >
                   View Credentials
                   <ExternalLink className="w-4 h-4 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />

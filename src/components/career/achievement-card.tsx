@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { useCarousel } from "@/hooks";
 
 interface AchievementCardProps {
   title: string;
@@ -12,18 +13,17 @@ interface AchievementCardProps {
   images?: string[];
 }
 
-export function AchievementCard({ title, subtitle, year, images = [] }: AchievementCardProps) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    if (images.length <= 1) return;
-
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 3000); // Change every 3 seconds
-
-    return () => clearInterval(interval);
-  }, [images.length]);
+export const AchievementCard = memo(function AchievementCard({
+  title,
+  subtitle,
+  year,
+  images = []
+}: AchievementCardProps) {
+  const { currentIndex } = useCarousel({
+    itemCount: images.length,
+    interval: 3000,
+    autoPlay: images.length > 1,
+  });
 
   return (
     <motion.div
@@ -89,4 +89,4 @@ export function AchievementCard({ title, subtitle, year, images = [] }: Achievem
       <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-brand-blue to-brand-purple opacity-0 transition-opacity group-hover:opacity-100" />
     </motion.div>
   );
-}
+});

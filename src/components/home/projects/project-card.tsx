@@ -1,5 +1,6 @@
 "use client";
 
+import { memo, useCallback } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { ExternalLink, Github, Bug, LayoutTemplate } from "lucide-react";
@@ -11,14 +12,14 @@ export interface ProjectCardProps {
   project: Project;
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export const ProjectCard = memo(function ProjectCard({ project }: ProjectCardProps) {
   const primaryLink = project.links.demo || project.links.github;
 
-  const handleCardClick = () => {
+  const handleCardClick = useCallback(() => {
     if (primaryLink) {
       window.open(primaryLink, "_blank", "noopener,noreferrer");
     }
-  };
+  }, [primaryLink]);
 
   return (
     <motion.div
@@ -99,4 +100,4 @@ export function ProjectCard({ project }: ProjectCardProps) {
       </div>
     </motion.div>
   );
-}
+});

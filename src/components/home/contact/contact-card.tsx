@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -11,14 +12,14 @@ interface ContactCardProps {
   color?: string;
 }
 
-export function ContactCard({ href, icon, title, value, color }: ContactCardProps) {
+export const ContactCard = memo(function ContactCard({ href, icon, title, value, color }: ContactCardProps) {
   return (
-    <a 
-      href={href} 
-      target="_blank" 
+    <a
+      href={href}
+      target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "group flex items-center justify-between p-5 md:p-8 rounded-3xl bg-[#0B0F19] border border-white/10 transition-all duration-300", 
+        "group flex items-center justify-between p-5 md:p-8 rounded-3xl bg-[#0B0F19] border border-white/10 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2 focus-visible:ring-offset-background",
         color
       )}
     >
@@ -35,5 +36,5 @@ export function ContactCard({ href, icon, title, value, color }: ContactCardProp
          <ArrowRight className="w-5 h-5 text-white" />
       </div>
     </a>
-  )
-}
+  );
+});

@@ -101,6 +101,7 @@ AI agent BOLEH refactor, tapi:
 - [ ] Akses Google Sheet hanya lewat server / backend
 - [ ] Tidak ada unused import, variabel, atau fungsi
 - [ ] Komentar hanya menjelaskan **MENGAPA**, bukan **APA**
+- [ ] Analyze all the code, after it delete unused files or folder from this projects. make sure your not delete the important or impactfull files or folder in this projects.
 
 ---
 
