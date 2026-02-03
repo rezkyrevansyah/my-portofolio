@@ -93,10 +93,34 @@
     { "title": "Quality Assurance Fundamental", "subtitle": "MySkill", "year": "Dec 2023" }
   ],
   "achievements": [
-    { "title": "1st Place Apps Development", "subtitle": "Raion Hackjam 2022", "year": "2022", "image": "/images/achievements/raion-hackjam.jpg" },
-    { "title": "2nd Place UI/UX Design", "subtitle": "IT MOSPHERE 2022", "year": "2022", "image": "/images/achievements/default.jpg" },
-    { "title": "Finalist UI/UX Design", "subtitle": "INFINITY 2023 (ITB STIKOM Bali)", "year": "2023", "image": "/images/achievements/default.jpg" },
-    { "title": "Finalist Creative Video 4C", "subtitle": "National Competition 2023", "year": "2023", "image": "/images/achievements/default.jpg" }
+    { 
+      "title": "1st Place Apps Development", 
+      "subtitle": "Raion Hackjam 2022", 
+      "year": "2022", 
+      "images": [
+        "/images/achievements/raion-hackjam-1.png",
+        "/images/achievements/raion-hackjam-2.jpeg",
+        "/images/achievements/raion-hackjam-3.jpg"
+      ]
+    },
+    { 
+      "title": "2nd Place UI/UX Design", 
+      "subtitle": "IT MOSPHERE 2022", 
+      "year": "2022", 
+      "images": ["/images/achievements/it-mosphere-2022.jpeg"]
+    },
+    { 
+      "title": "Finalist UI/UX Design", 
+      "subtitle": "INFINITY 2023 (ITB STIKOM Bali)", 
+      "year": "2023", 
+      "images": ["/images/achievements/infinity-2023.png"]
+    },
+    { 
+      "title": "Finalist Creative Video 4C", 
+      "subtitle": "National Competition 2023", 
+      "year": "2023", 
+      "images": ["/images/achievements/video-creative-4c-2023.png"]
+    }
   ],
   "driveLink": "https://bit.ly/Sertifikat-Course-Rezky"
 }

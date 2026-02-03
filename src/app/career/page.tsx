@@ -140,7 +140,7 @@ export default function CareerPage() {
                   title={ach.title} 
                   subtitle={ach.subtitle} 
                   year={ach.year}
-                  image={ach.image}
+                  images={ach.images}
                 />
               ))}
            </div>
