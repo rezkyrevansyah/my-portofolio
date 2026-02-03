@@ -22,7 +22,7 @@
     "title": "BAZNAS National Portal",
     "category": "QA Engineering",
     "description": "Ensured stability and high performance for the official national zakat information and coordination platform.",
-    "image": "/images/projects/project-baznas.png",
+    "image": "/images/projects/qa-baznas.png",
     "tags": ["National Portal", "Reliability", "Performance"],
     "links": { "demo": "https://baznas.go.id/" }
   },
@@ -31,7 +31,7 @@
     "title": "EKRAF Hub Ecosystem",
     "category": "QA Engineering",
     "description": "QA Testing for the Ministry's creative economy hub, enabling connectivity between 17 creative subsectors.",
-    "image": "/images/projects/project-ekraf-hub.png",
+    "image": "/images/projects/qa-ekraf-hub.png",
     "tags": ["Government", "Web Ecosystem", "Collaboration"],
     "links": { "demo": "https://hub.ekraf.go.id/" }
   },
@@ -40,7 +40,7 @@
     "title": "Erafone E-Commerce Platform",
     "category": "QA Engineering",
     "description": "Full-cycle testing for a leading retail platform, focusing on seamless checkout flows and MyEraspace integration.",
-    "image": "/images/projects/project-erafone.png",
+    "image": "/images/projects/qa-erafone.png",
     "tags": ["E-Commerce", "Checkout Flow", "Retail"],
     "links": { "demo": "https://erafone.com/" }
   },
@@ -49,7 +49,7 @@
     "title": "TBIG Mobile (Tower Bersama)",
     "category": "QA Engineering",
     "description": "Mobile app testing for operational tracking and infrastructure monitoring across nationwide telecommunication towers.",
-    "image": "/images/projects/project-tbig.png",
+    "image": "/images/projects/qa-tbig.png",
     "tags": ["Mobile App", "Logistics", "Operations"],
     "links": { "demo": "https://play.google.com/store/apps/details?id=com.tbig.mobile" }
   },
@@ -58,7 +58,7 @@
     "title": "Cinta Zakat Crowdfunding",
     "category": "QA Engineering",
     "description": "Quality assurance for BAZNAS's digital donation gateway, ensuring secure and seamless transaction flows.",
-    "image": "/images/projects/project-cinta-zakat.png",
+    "image": "/images/projects/qa-cinta-zakat.png",
     "tags": ["Crowdfunding", "Security", "Donation"],
     "links": { "demo": "https://cintazakat.baznas.go.id/" }
   },
@@ -67,7 +67,7 @@
     "title": "IDP EKRAF SSO Gateway",
     "category": "QA Engineering",
     "description": "Security and integration testing for the centralized Identity Provider system used by various E-KRAF modules.",
-    "image": "/images/projects/project-ekraf-idp.png",
+    "image": "/images/projects/qa-ekraf-idp.png",
     "tags": ["Identity Provider", "SSO", "Security"],
     "links": { "demo": "https://idp.ekraf.go.id/" }
   },
@@ -76,7 +76,7 @@
     "title": "SiMBA UPZ Management System",
     "category": "QA Engineering",
     "description": "Testing complex management system for 30k+ UPZ, including RKAT planning and PSAK 109 financial reporting.",
-    "image": "/images/projects/project-simba-upz.png",
+    "image": "/images/projects/qa-simba-upz.png",
     "tags": ["Management System", "Finance", "Internal-Tool"],
     "links": { "demo": "https://upz.baznas.go.id/" }
   },
