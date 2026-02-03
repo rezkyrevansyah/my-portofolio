@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { ProjectCard } from "@/components/home/projects/project-card";
 import { Project, ProjectCategory } from "@/types";
@@ -97,13 +98,13 @@ export function FeaturedProjects() {
               <p className="text-gray-400 text-lg mb-6">
                 No projects here yet, but exciting things are in the works! 👀
               </p>
-              <a
+              <Link
                 href="#contact"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-brand-blue hover:bg-brand-blue/80 text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-brand-blue/25"
               >
                 <span>Contact me for details</span>
                 <span>💬</span>
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}
