@@ -10,6 +10,7 @@ import { ExperienceCard } from "@/components/career/experience-card";
 import { CompactCard } from "@/components/career/compact-card";
 import { BadgeCard } from "@/components/career/badge-card";
 import { AchievementCard } from "@/components/career/achievement-card";
+import { getCareerIcon } from "@/lib/iconMapper";
 import careerData from "@/data/career.json";
 
 const INITIAL_CERT_COUNT = 6;
@@ -23,14 +24,6 @@ export default function CareerPage() {
     : career.certifications.slice(0, INITIAL_CERT_COUNT);
 
   const remainingCount = career.certifications.length - INITIAL_CERT_COUNT;
-
-  const getIcon = (iconName: string) => {
-     switch (iconName) {
-        case "GraduationCap": return <GraduationCap className="w-5 h-5" />;
-        case "Users": return <Users className="w-5 h-5" />;
-        default: return <Briefcase className="w-5 h-5" />;
-     }
-  };
 
   return (
     <main id="main-content" className="min-h-screen bg-background text-white selection:bg-brand-orange selection:text-white pb-20">
@@ -83,12 +76,12 @@ export default function CareerPage() {
               <SectionHeader icon={<GraduationCap />} title="Education" />
               <div className="space-y-4">
                  {career.education.map((edu, index) => (
-                    <CompactCard 
+                    <CompactCard
                       key={index}
                       title={edu.title}
                       subtitle={edu.subtitle}
                       meta={edu.meta}
-                      icon={getIcon(edu.icon)}
+                      icon={getCareerIcon(edu.icon)}
                     />
                  ))}
               </div>
@@ -99,12 +92,12 @@ export default function CareerPage() {
               <SectionHeader icon={<Users />} title="Organizations" />
                <div className="space-y-4">
                   {career.organizations.map((org, index) => (
-                    <CompactCard 
+                    <CompactCard
                       key={index}
                       title={org.title}
                       subtitle={org.subtitle}
                       meta={org.meta}
-                      icon={getIcon(org.icon)}
+                      icon={getCareerIcon(org.icon)}
                     />
                   ))}
               </div>

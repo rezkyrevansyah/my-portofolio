@@ -1,26 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ShieldCheck, Palette, Sparkles, Code, Laptop, Search, Smartphone } from "lucide-react";
 import { CapabilityCard } from "@/components/home/capabilities/capability-card";
-import { SectionHeader } from "@/components/ui/section-header";
+import { getCapabilityIcon } from "@/lib/iconMapper";
 import capabilitiesData from "@/data/capabilities.json";
 
 export function Capabilities() {
   const capabilities = capabilitiesData;
-
-  const getIcon = (iconName: string) => {
-    switch (iconName) {
-      case "ShieldCheck": return <ShieldCheck className="w-8 h-8 text-white" />;
-      case "Palette": return <Palette className="w-8 h-8 text-white" />;
-      case "Sparkles": return <Sparkles className="w-8 h-8 text-white" />;
-      case "Search": return <Search className="w-8 h-8 text-white" />;
-      case "Laptop": return <Laptop className="w-8 h-8 text-white" />;
-      case "Code": return <Code className="w-8 h-8 text-white" />;
-      case "Smartphone": return <Smartphone className="w-8 h-8 text-white" />;
-      default: return <Code className="w-8 h-8 text-white" />;
-    }
-  };
 
   return (
     <section id="capabilities" className="py-24 px-6 relative z-10">
@@ -52,7 +38,7 @@ export function Capabilities() {
                bgColor={cap.bgColor}
                delay={cap.delay}
                category={cap.category}
-               icon={getIcon(cap.icon)}
+               icon={getCapabilityIcon(cap.icon)}
              />
            ))}
          </div>

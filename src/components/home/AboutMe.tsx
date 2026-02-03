@@ -1,24 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User, Heart, Sparkles, Coffee } from "lucide-react";
+import { User } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { SocialButton } from "@/components/ui/social-button";
+import { getAboutTagIcon } from "@/lib/iconMapper";
 import aboutData from "@/data/about.json";
 
 export function AboutMe() {
   const about = aboutData;
-
-  // Helper to map icon string to Component
-  const getIcon = (iconName: string) => {
-    switch (iconName) {
-      case "Heart": return <Heart className="w-4 h-4 fill-brand-orange" />;
-      case "Sparkles": return <Sparkles className="w-4 h-4" />;
-      case "Coffee": return <Coffee className="w-4 h-4" />;
-      default: return null;
-    }
-  };
 
   return (
     <section id="about" className="py-24 px-6 relative overflow-hidden">
@@ -55,7 +46,7 @@ export function AboutMe() {
              <div className="flex flex-wrap gap-3 mt-8 items-center">
                {about.tags.map((tag, index) => (
                  <Badge key={index} variant={tag.variant as "default" | "secondary" | "outline" | "glass" | "brand" | "fun" | "purple" | "yellow"} className="gap-2 px-4 py-2 text-sm font-medium">
-                   {getIcon(tag.icon)}
+                   {getAboutTagIcon(tag.icon)}
                    {tag.text}
                  </Badge>
                ))}

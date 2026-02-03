@@ -1,17 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { 
-  ClipboardCheck, Settings, Code2, Globe, Box, Smartphone, Send, PenTool, Trello, Layout, Code, Atom, Zap, Palette, Database, GitBranch,
-  Terminal, Server, Cloud, Sparkles, Star
+import {
+  ClipboardCheck, Settings, Code2, Globe, Box, Smartphone, Send, PenTool, Trello, Code, GitBranch,
+  Sparkles, Star
 } from "lucide-react";
 import aboutData from "@/data/about.json";
 import { cn } from "@/lib/utils";
 
-// Map string icon names to Lucide components
-const iconMap: Record<string, any> = {
-  ClipboardCheck, Settings, Code2, Globe, Box, Smartphone, Send, PenTool, Trello, Layout, Code, Atom, Zap, Palette, Database, GitBranch,
-  Terminal, Server, Cloud
+// Map string icon names to Lucide components (only icons used in about.json skills)
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  ClipboardCheck, Settings, Code2, Globe, Box, Smartphone, Send, PenTool, Trello, Code, GitBranch
 };
 
 export function SkillsMarquee() {
