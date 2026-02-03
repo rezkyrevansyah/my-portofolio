@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Zap, Eye, Sparkles, Star, Hexagon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FloatingSticker } from "@/components/ui/floating-sticker";
@@ -92,14 +93,18 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
-          className="mt-12 flex items-center justify-center gap-6"
+          className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 px-6"
         >
-          <Button size="lg" className="font-bold text-lg">
-            {hero.actions.primary}
-          </Button>
-          <Button variant="outline" size="lg" className="font-bold text-lg flex items-center gap-2">
-             {hero.actions.secondary} <Sparkles className="w-4 h-4" />
-          </Button>
+          <Link href="/#portfolio" className="w-full sm:w-auto">
+            <Button size="lg" className="font-bold text-lg w-full sm:w-[220px] whitespace-nowrap">
+              {hero.actions.primary}
+            </Button>
+          </Link>
+          <Link href="/career" className="w-full sm:w-auto">
+            <Button variant="outline" size="lg" className="font-bold text-lg flex items-center justify-center gap-2 w-full sm:w-[220px] whitespace-nowrap">
+               {hero.actions.secondary} <Sparkles className="w-4 h-4" />
+            </Button>
+          </Link>
         </motion.div>
 
       </div>
