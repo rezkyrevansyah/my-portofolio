@@ -1,16 +1,16 @@
 [
   {
-    "title": "Quality Assurance",
-    "description": "Ensuring bug-free, stable, and high-performance applications through rigorous manual & automation testing.",
+    "title": "Full Stack Development",
+    "description": "Building end-to-end web applications with clean architecture, scalable APIs, and seamless user experiences.",
     "icon": "ShieldCheck",
     "tagColor": "bg-brand-blue",
     "bgColor": "bg-[#1E293B]",
     "delay": 0.1,
-    "category": "QA Engineering"
+    "category": "Web Development"
   },
   {
-    "title": "Web Development",
-    "description": "Building modern, AI-powered web applications with speed, style, and cutting-edge technology.",
+    "title": "Software Engineering",
+    "description": "Delivering robust, maintainable software using modern frameworks, best practices, and AI-powered development tools.",
     "icon": "Sparkles",
     "tagColor": "bg-brand-orange",
     "bgColor": "bg-[#1A1827]",

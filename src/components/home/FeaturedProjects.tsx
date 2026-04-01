@@ -18,7 +18,7 @@ export function FeaturedProjects() {
   useEffect(() => {
     const handleSetFilter = (event: CustomEvent<string>) => {
       const category = event.detail as ProjectCategory;
-      if (["All", "QA Engineering", "Web Development", "UI/UX Design"].includes(category)) {
+      if (["All", "Web Development", "QA Engineering", "UI/UX Design"].includes(category)) {
         setFilter(category);
       }
     };
@@ -44,7 +44,7 @@ export function FeaturedProjects() {
           >
             <h2 className="text-5xl md:text-6xl font-serif text-white mb-4">Featured Work</h2>
             <p className="text-gray-400 max-w-xl text-lg">
-              A collection of bug-free deployments and rapid prototypes.
+              A collection of full stack projects, web apps, and digital products I've built and shipped.
             </p>
           </motion.div>
 
@@ -55,7 +55,7 @@ export function FeaturedProjects() {
              viewport={{ once: true }}
              className="flex flex-wrap justify-center gap-2 p-2 bg-white/5 rounded-2xl md:rounded-full border border-white/10"
           >
-            {(["All", "QA Engineering", "Web Development", "UI/UX Design"] as ProjectCategory[]).map((cat) => (
+            {(["All", "Web Development", "QA Engineering", "UI/UX Design"] as ProjectCategory[]).map((cat) => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}

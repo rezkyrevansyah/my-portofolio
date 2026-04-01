@@ -1,11 +1,11 @@
 {
   "title": "About Me",
   "name": "Revan",
-  "role": "QA Engineer & AI Enthusiast",
+  "role": "Full Stack Developer & Software Engineer",
   "description": [
-    "Detail-oriented Quality Assurance Engineer and Information Technology Graduate (GPA 3.74/4.00) with a strong foundation in automation testing and AI engineering.",
-    "I have a proven track record of improving application stability for national-scale platforms and leading high-performing teams in tech competitions. My approach combines technical precision with innovative problem-solving.",
-    "Committed to delivering bug-free, user-centric software solutions. I continuously hone my skills in tools like Selenium, Katalon, and Python to stay ahead of the curve."
+    "Full Stack Developer and Information Technology Graduate (GPA 3.74/4.00) with hands-on experience building end-to-end web applications — from responsive frontends to robust backend systems.",
+    "I have a proven track record of delivering digital products for national-scale platforms and leading high-performing teams in tech competitions. My approach combines engineering discipline with creative problem-solving.",
+    "Committed to writing clean, maintainable code and shipping software that solves real problems. I continuously sharpen my skills across the modern web stack — React, Next.js, Node.js, and beyond."
   ],
   "tags": [
     { "text": "Detail Oriented", "icon": "Heart", "variant": "fun" },
@@ -20,17 +20,17 @@
   },
   "photoPlaceholder": "/images/profile.png",
   "skills": [
-    { "name": "Automation Testing", "icon": "Settings" },
-    { "name": "Manual Testing", "icon": "ClipboardCheck" },
-    { "name": "Test Strategy", "icon": "ShieldCheck" },
-    { "name": "Python", "icon": "Code2" },
-    { "name": "Katalon Studio", "icon": "Box" },
-    { "name": "Selenium", "icon": "Globe" },
+    { "name": "Next.js", "icon": "Layers" },
+    { "name": "Astro", "icon": "Rocket" },
+    { "name": "Laravel", "icon": "Code2" },
+    { "name": "PostgreSQL", "icon": "Database" },
+    { "name": "MySQL", "icon": "Database" },
+    { "name": "Python", "icon": "Terminal" },
     { "name": "Cypress", "icon": "CheckCircle" },
     { "name": "Postman", "icon": "Send" },
-    { "name": "Jira", "icon": "Trello" },
     { "name": "Android Studio", "icon": "Smartphone" },
     { "name": "Figma", "icon": "PenTool" },
-    { "name": "Git & GitHub", "icon": "GitBranch" }
+    { "name": "Git & GitHub", "icon": "GitBranch" },
+    { "name": "Jira", "icon": "Trello" }
   ]
 }

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Revan Portofolio",
-  description: "QA Engineer & Vibe Coder Portfolio. Exploring quality assurance and frontend engineering.",
+  description: "Full Stack Developer & Software Engineer Portfolio. Building scalable web applications and end-to-end digital products.",
   icons: {
     icon: "/icon.svg",
   },

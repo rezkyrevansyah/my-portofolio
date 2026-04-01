@@ -1,12 +1,12 @@
 {
-  "title": "Quality Assurance",
-  "titleCheck": "Engineer",
-  "subtitle": "& AI Enthusiast",
+  "title": "Full Stack",
+  "titleCheck": "Developer",
+  "subtitle": "& Software Engineer",
   "stickerText": "✨ Open for Opportunities!",
-  "description": "Detail-oriented QA Engineer and IT Graduate with a passion for building bug-free, user-centric software. I combine technical precision in automation testing with innovative AI engineering.",
+  "description": "Passionate Full Stack Developer and IT Graduate who builds scalable, user-centric web applications from front to back. I combine clean architecture with modern AI-powered tools to ship products that matter.",
   "stats": [
     { "number": "3.74", "label": "GPA", "color": "bg-brand-blue", "rotate": "-2" },
-    { "number": "10+", "label": "Projects Delivered", "color": "bg-brand-orange", "rotate": "2" },
+    { "number": "20+", "label": "Projects Delivered", "color": "bg-brand-orange", "rotate": "2" },
     { "number": "5+", "label": "Competitions Won", "color": "bg-brand-purple", "rotate": "-1" }
   ],
   "actions": {
