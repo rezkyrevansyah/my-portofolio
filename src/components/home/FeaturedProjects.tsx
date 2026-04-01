@@ -108,6 +108,26 @@ export function FeaturedProjects() {
             </div>
           </motion.div>
         )}
+        {/* More projects CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-16 flex flex-col items-center text-center gap-4"
+        >
+          <p className="text-gray-400 text-base max-w-xl">
+            This is only a portion of my work — there are more projects across various domains that haven&apos;t made it here yet.
+          </p>
+          <p className="text-gray-500 text-sm">
+            Interested in seeing more or discussing a project?
+          </p>
+          <Link
+            href="#contact"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-white/10 hover:border-brand-blue/50 bg-white/5 hover:bg-brand-blue/10 text-white rounded-full text-sm font-medium transition-all duration-300"
+          >
+            Let&apos;s talk — contact me for the full portfolio
+          </Link>
+        </motion.div>
       </div>
     </section>
   );
