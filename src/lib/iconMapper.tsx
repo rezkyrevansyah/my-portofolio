@@ -4,7 +4,7 @@ import {
   // Career page icons
   GraduationCap, Users, Briefcase,
   // AboutMe tags icons
-  Heart, Coffee,
+  Heart, Coffee, Lightbulb, MessageSquare,
   // Capabilities icons
   ShieldCheck, Palette, Sparkles, Search, Laptop, Code, Smartphone
 } from "lucide-react";
@@ -28,7 +28,9 @@ const careerIcons: Record<string, React.ComponentType<{ className?: string }>> =
 const aboutTagIcons: Record<string, React.ComponentType<{ className?: string }>> = {
   Heart,
   Sparkles,
-  Coffee
+  Coffee,
+  Lightbulb,
+  MessageSquare
 };
 
 // Capabilities icon mapping

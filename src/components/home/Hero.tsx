@@ -26,11 +26,11 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         
         {/* DECORATIVE ELEMENTS */}
-        <GeometricShape className="absolute top-10 right-10 md:right-32 text-brand-yellow rotate-12" delay={0.5}>
-           <Star className="fill-brand-yellow w-12 h-12" />
+        <GeometricShape className="absolute top-6 right-4 md:top-10 md:right-32 text-brand-yellow rotate-12 pointer-events-none" delay={0.5}>
+           <Star className="fill-brand-yellow w-8 h-8 md:w-12 md:h-12" />
         </GeometricShape>
-        <GeometricShape className="absolute top-40 left-10 text-brand-green -rotate-12" delay={0.7}>
-           <Hexagon className="fill-brand-green w-8 h-8 opacity-60" />
+        <GeometricShape className="absolute top-52 left-2 md:top-40 md:left-10 text-brand-green -rotate-12 pointer-events-none" delay={0.7}>
+           <Hexagon className="fill-brand-green w-6 h-6 md:w-8 md:h-8 opacity-60" />
         </GeometricShape>
 
         {/* MAIN TEXT */}
@@ -57,9 +57,9 @@ export function Hero() {
              </h1>
              
              {/* Sticker Icon 1: Eye (Watching) */}
-            <FloatingSticker className="absolute -top-8 left-[10%] md:left-[20%]" delay={0}>
-               <div className="bg-[#FF6B6B] p-4 rounded-2xl border-4 border-black shadow-[4px_4px_0px_0px_rgba(255,255,255,0.2)]">
-                 <Eye className="w-10 h-10 text-white" />
+            <FloatingSticker className="absolute -top-14 left-0 md:-top-8 md:left-[20%] pointer-events-none" delay={0}>
+               <div className="bg-[#FF6B6B] p-3 md:p-4 rounded-2xl border-4 border-black shadow-[4px_4px_0px_0px_rgba(255,255,255,0.2)]">
+                 <Eye className="w-8 h-8 md:w-10 md:h-10 text-white" />
                </div>
             </FloatingSticker>
 
@@ -71,9 +71,9 @@ export function Hero() {
              </h1>
 
               {/* Sticker Icon 2: Lightning */}
-             <FloatingSticker className="absolute -top-4 right-[10%] md:right-[15%]" delay={0.2}>
-               <div className="bg-brand-yellow p-4 rounded-full border-4 border-black shadow-[4px_4px_0px_0px_rgba(255,255,255,0.2)]">
-                 <Zap className="w-12 h-12 text-black fill-black" />
+             <FloatingSticker className="absolute top-full right-4 -mt-4 md:-top-4 md:right-[15%] md:mt-0 pointer-events-none" delay={0.2}>
+               <div className="bg-brand-yellow p-3 md:p-4 rounded-full border-4 border-black shadow-[4px_4px_0px_0px_rgba(255,255,255,0.2)]">
+                 <Zap className="w-8 h-8 md:w-12 md:h-12 text-black fill-black" />
                </div>
             </FloatingSticker>
            </div>

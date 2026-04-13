@@ -10,6 +10,8 @@
   "tags": [
     { "text": "Detail Oriented", "icon": "Heart", "variant": "fun" },
     { "text": "Adaptable", "icon": "Sparkles", "variant": "purple" },
+    { "text": "Problem Solver", "icon": "Lightbulb", "variant": "brand" },
+    { "text": "Clear Communicator", "icon": "MessageSquare", "variant": "glass" },
     { "text": "Team Player", "icon": "Coffee", "variant": "yellow" }
   ],
   "stickerText": "👋 Say Hi!",

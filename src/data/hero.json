@@ -5,9 +5,9 @@
   "stickerText": "✨ Open for Opportunities!",
   "description": "Passionate Full Stack Developer and IT Graduate who builds scalable, user-centric web applications from front to back. I combine clean architecture with modern AI-powered tools to ship products that matter.",
   "stats": [
-    { "number": "3.74", "label": "GPA", "color": "bg-brand-blue", "rotate": "-2" },
+    { "number": "100+", "label": "Test Cases Designed", "color": "bg-brand-blue", "rotate": "-2" },
     { "number": "20+", "label": "Projects Delivered", "color": "bg-brand-orange", "rotate": "2" },
-    { "number": "5+", "label": "Competitions Won", "color": "bg-brand-purple", "rotate": "-1" }
+    { "number": "15+", "label": "Certifications Earned", "color": "bg-brand-purple", "rotate": "-1" }
   ],
   "actions": {
     "primary": "Explore Portfolio",
