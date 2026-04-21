@@ -100,12 +100,12 @@
   },
   {
     "id": 12,
-    "title": "Masjid Al Arqam Profile",
+    "title": "Website Masjid Al Arqam Bekasi Utara",
     "category": "Web Development",
-    "description": "Website profil masjid untuk informasi dan publikasi kegiatan.",
-    "image": "/images/projects/vibe-masjid.png",
-    "tags": ["profile", "community", "information"],
-    "links": { "demo": "https://alarqam-bekasiutara.vercel.app" }
+    "description": "Website masjid untuk publikasi kegiatan dan transparansi kepada jamaah, dilengkapi dashboard laporan sebagai nilai tambah utama.",
+    "image": "/images/projects/asya-masjid-al-arqam.png",
+    "tags": ["Website Masjid", "Dashboard", "Publikasi", "Transparansi"],
+    "links": { "demo": "https://alarqambekasiutara.vercel.app/" }
   },
   {
     "id": 13,
@@ -151,5 +151,23 @@
     "image": "/images/projects/vibe-baketrack.png",
     "tags": ["dashboard", "management", "food"],
     "links": { "demo": "https://dashboarku-baketrack.vercel.app" }
+  },
+  {
+    "id": 18,
+    "title": "Yoonjae Space Studio Website",
+    "category": "Web Development",
+    "description": "Website manajemen studio Yoonjae Space di Depok, Jawa Barat, yang merangkum kebutuhan operasional studio dalam satu sistem.",
+    "image": "/images/projects/asya-yoonjae-space-studio.png",
+    "tags": ["Studio Management", "Booking System", "Operations", "Depok"],
+    "links": { "demo": "https://yoonjaespacestudio.vercel.app/" }
+  },
+  {
+    "id": 19,
+    "title": "Monis Rent Live Preview Prototype",
+    "category": "Web Development",
+    "description": "Prototype website untuk Monis Rent di Bali dengan fokus pada kebutuhan fitur baru berupa live preview setup.",
+    "image": "/images/projects/asya-monis-rent.png",
+    "tags": ["Prototype", "Live Preview", "Rental", "Bali"],
+    "links": { "demo": "https://monis-rent-red.vercel.app/" }
   }
 ]

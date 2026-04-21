@@ -44,7 +44,7 @@ export function FeaturedProjects() {
           >
             <h2 className="text-5xl md:text-6xl font-serif text-white mb-4">Featured Work</h2>
             <p className="text-gray-400 max-w-xl text-lg">
-              A collection of full stack projects, web apps, and digital products I've built and shipped.
+              A collection of full stack projects, web apps, and digital products I&apos;ve built and shipped.
             </p>
           </motion.div>
 

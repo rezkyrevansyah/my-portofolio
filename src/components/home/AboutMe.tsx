@@ -30,7 +30,7 @@ export function AboutMe() {
              </div>
 
              <h2 className="text-5xl md:text-6xl font-serif text-white mb-6 leading-tight">
-               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-yellow">{about.name}</span>
+               Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-yellow">{about.name}</span>
                <span className="block text-2xl md:text-3xl text-gray-400 font-sans font-light mt-2">
                  {about.role}
                </span>
